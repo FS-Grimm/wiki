@@ -28,19 +28,16 @@ bool jsonParser::hasInvalidName(const string &itemName) {
 }
 
 void jsonParser::setValidName( string * itemName) {
-    switch (itemName) {
-        case POROSNAXS:
-            *itemName=POROSNAXSV;
-        break;
-        case STOPWATCH:
-            *itemName=STOPWATCHV;
-        break;
-        case ELIXIROFSKILLS:
-            *itemName=ELIXIROFSKILLSV;
-        break;
-        case WANDERERBLESSING:
-            *itemName=WANDERERBLESSINGV;
-        break;
+    if (*itemName==POROSNAXS) {
+        *itemName = POROSNAXSV;
+    } else if (*itemName==WANDERERBLESSING) {
+        *itemName=WANDERERBLESSINGV;
+    } else if (*itemName==ELIXIROFSKILLS) {
+        *itemName=ELIXIROFSKILLSV;
+    } else  if (*itemName==STOPWATCH){
+        *itemName=STOPWATCHV;
+    } else { //if (*itemName==MANAPOTION)
+        *itemName=MANAPOTIONV;
     }
 }
 
