@@ -6,7 +6,6 @@
 #include "TManagers/BottomTableManager.h"
 #include "TManagers/TopTableManager.h"
 int main() {
-    BottomTableManager::makeTable(2);
 
     TopTableManager::makeTable(1);
     BottomTableManager::makeTable(1);

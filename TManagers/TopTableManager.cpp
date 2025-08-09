@@ -23,13 +23,13 @@ void TopTableManager::makeTable(int deckNumber) {
     addStart(f);
     Card card;
     long long i = 0;
-    size_t key;
-    while (i < MAXITEMS) {
-        key= level[i];
+    size_t key=level[i];
+    while (i < MAXITEMS && key<=27) {
         if (!deck.hasKey(key)) {
             if (key!=U4N)
                 addEmptyCardLine(f,key);
             i++;
+            key= level[i];
             continue;
         }
         card = deck.getCard(key);
@@ -39,6 +39,7 @@ void TopTableManager::makeTable(int deckNumber) {
             card.swapItems();
         }
         i++;
+        key= level[i];
     }
     fprintf(f,"}}\n");
     fclose(f);

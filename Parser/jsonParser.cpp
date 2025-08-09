@@ -4,6 +4,15 @@
 
 #include "jsonParser.h"
 using namespace std;
+string champ1;
+string champ2;
+string champ3;
+string champ4;
+
+vector<Card> cardsGlobal1;
+vector<Card> cardsGlobal2;
+vector<Card> cardsGlobal3;
+vector<Card> cardsGlobal4;
 
 ifstream jsonParser::getVersionFile() {
     string filePath = "Parser/"  patchVersion  ".json";

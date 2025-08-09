@@ -8,7 +8,7 @@ void BottomDeck::makeDeck(const string &champ, const char **cardsChamp, const ch
     string item1Text, item2Text;
     Card card;
     setChamp(champ);
-    for (int i = 0; i < cards.size(); i++) {
+    for (int i = 0; i < MAXCARDS; i++) {
         card=Card(cardsChamp[i],itemsChamp[i]);
         add(card);
     }}
