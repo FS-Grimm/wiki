@@ -1,0 +1,113 @@
+{
+  "1": {
+    "name": "Mel",
+    "1": {
+      "name": "Lest",
+      "cost": 1,
+      "item1": "Bounty Board",
+      "item1Level": 2,
+      "item2": "Coralcrush Gauntlets",
+      "levelItem2": 24
+    },
+    "2": {
+      "name": "Academy Prodigy",
+      "cost": 1,
+      "item1": "Entrancing Lure",
+      "item1Level": 6
+    },
+    "3": {
+      "name": "Ballistic Bot",
+      "cost": 2,
+      "item1": "Studded Leather",
+      "item1Level": 9
+    },
+    "4": {
+      "name": "Elora",
+      "cost": 3,
+      "item1": "Skirmisher's Sabre",
+      "item1Level": 12
+    },
+    "5": {
+      "name": "Howling Gale",
+      "cost": 3,
+      "item1": "Ardent Censer",
+      "item1Level": 21
+    },
+    "6": {
+      "name": "Solar Snare",
+      "cost": 3,
+      "item1": "Poro Snax",
+      "item1Level": 15
+    },
+    "7": {
+      "name": "Funsmith",
+      "cost": 4,
+      "item1": "Savage Shield",
+      "item1Level": 18
+    },
+    "8": {
+      "name": "Rebuttal",
+      "cost": 5,
+      "item1": "Mana Potion",
+      "item1Level": 3
+    }
+  },
+  "2": {
+    "name": "Spirit Blossom Ahri",
+    "1": {
+      "name": "Orb of Deception",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0
+    },
+    "2": {
+      "name": "Spirit Rush",
+      "cost": 3,
+      "item1": "NAME",
+      "item1Level": 0
+    },
+    "3": {
+      "name": "Essence Thief",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0
+    },
+    "4": {
+      "name": "Serene Spirit",
+      "cost": 3,
+      "item1": "NAME",
+      "item1Level": 0
+    },
+    "5": {
+      "name": "Final Blessing",
+      "cost": 5,
+      "item1": "NAME",
+      "item1Level": 0
+    },
+    "6": {
+      "name": "Sparring Student",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0
+    },
+    "7": {
+      "name": "Prancing Sea Spirits",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0
+    },
+    "8": {
+      "name": "Petals of Fate",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0
+    },
+    "E1": {
+      "name": "Fox-Fire",
+      "item1": "NAME",
+      "item1Level": 0
+    }
+  }
+
+
+}

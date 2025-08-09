@@ -1,0 +1,188 @@
+{
+  "1": {
+    "name": "CHAMPNAME",
+    "1": {
+      "name": "NAME",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "2": {
+    "name": "NAME",
+    "cost": 1,
+    "item1": "NAME",
+    "item1Level": 0,
+    "item2": "NAME",
+    "item2Level": 0
+    },
+
+    "3": {
+    "name": "NAME",
+    "cost": 1,
+    "item1": "NAME",
+    "item1Level": 0,
+    "item2": "NAME",
+    "item2Level": 0
+    },
+    "4": {
+    "name": "NAME",
+    "cost": 1,
+    "item1": "NAME",
+    "item1Level": 0,
+    "item2": "NAME",
+    "item2Level": 0
+    },
+    "5": {
+    "name": "NAME",
+    "cost": 1,
+    "item1": "NAME",
+    "item1Level": 0,
+    "item2": "NAME",
+    "item2Level": 0
+    },
+    "6": {
+    "name": "NAME",
+    "cost": 1,
+    "item1": "NAME",
+    "item1Level": 0,
+    "item2": "NAME",
+    "item2Level": 0
+    },
+    "7": {
+    "name": "NAME",
+    "cost": 1,
+    "item1": "NAME",
+    "item1Level": 0,
+    "item2": "NAME",
+    "item2Level": 0
+    },
+    "8": {
+    "name": "NAME",
+    "cost": 1,
+    "item1": "NAME",
+    "item1Level": 0,
+    "item2": "NAME",
+    "item2Level": 0
+    },
+    "E1": {
+    "name": "NAME",
+    "related": "",
+    "item1": "NAME",
+    "item1Level": 0,
+    "item2": "NAME",
+    "item2Level": 0
+    },
+    "E2": {
+    "name": "NAME",
+    "related": "",
+    "item1": "NAME",
+    "item1Level": 0,
+    "item2": "NAME",
+    "item2Level": 0
+    },
+    "E3": {
+    "name": "NAME",
+    "related": "",
+    "item1": "NAME",
+    "item1Level": 0,
+    "item2": "NAME",
+    "item2Level": 0
+    }
+  },
+  "2": {
+    "name": "CHAMPNAME",
+    "1": {
+      "name": "NAME",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "2": {
+      "name": "NAME",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+
+    "3": {
+      "name": "NAME",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "4": {
+      "name": "NAME",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "5": {
+      "name": "NAME",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "6": {
+      "name": "NAME",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "7": {
+      "name": "NAME",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "8": {
+      "name": "NAME",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "E1": {
+      "name": "NAME",
+      "related": "",
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "E2": {
+      "name": "NAME",
+      "related": "",
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "E3": {
+      "name": "NAME",
+      "related": "",
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    }
+  }
+
+
+}

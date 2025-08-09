@@ -1,0 +1,13 @@
+ {{PoCChampionLevel
+|level2= {{LoR|Lest}} starts with {{PoC|item|Bounty Board}}.
+|level3= {{LoR|Rebuttal}} starts with {{PoC|item|Mana Potion Spells}}.
+|level6= {{LoR|Academy Prodigy}} starts with {{PoC|item|Entrancing Lure}}.
+|level9= {{LoR|Ballistic Bot}} starts with {{PoC|item|Studded Leather}}.
+|level12= {{LoR|Elora}} starts with {{PoC|item|Skirmisher's Sabre}}.
+|level15= {{LoR|Solar Snare}} starts with {{PoC|item|Poro Snax Spells}}.
+|level18= {{LoR|Funsmith}} starts with {{PoC|item|Savage Shield}}.
+|level21= {{LoR|Howling Gale}} starts with {{PoC|item|Ardent Censer}}.
+|level24= {{LoR|Lest}} starts with {{PoC|item|Coralcrush Gauntlets}}.
+|level27= 
+
+}}

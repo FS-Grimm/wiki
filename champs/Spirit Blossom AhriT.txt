@@ -1,0 +1,13 @@
+ {{PoCChampionLevel
+|level2= 
+|level3= 
+|level6= 
+|level9= 
+|level12= 
+|level15= 
+|level18= 
+|level21= 
+|level24= 
+|level27= 
+{{LoR|Orb of Deception}} starts with .
+}}

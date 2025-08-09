@@ -1,0 +1,13 @@
+# ninja log v6
+33	6736	7764681835181687	CMakeFiles/Wiki.dir/Deck/Deck.cpp.obj	5520a7e1e18115ce
+10	6805	7764681834960172	CMakeFiles/Wiki.dir/main.cpp.obj	1064b8fb246626a6
+2829	3194	7764683331390170	Wiki.exe	f897282ffcfa4246
+7	2980	7764160184531341	CMakeFiles/Wiki.dir/Deck.cpp.obj	6658dc29dd4f03be
+22	3878	7764148782698034	CMakeFiles/Wiki.dir/bottomTableManager.cpp.obj	e2b9b2ad1e3c2391
+7	2831	7764162726762622	CMakeFiles/Wiki.dir/topTableManager.cpp.obj	483719eb17ea05d3
+15	3436	7764156591442895	CMakeFiles/Wiki.dir/Card.cpp.obj	da758ef27a931c8d
+8	2829	7764683303169206	CMakeFiles/Wiki.dir/TManagers/TopTableManager.cpp.obj	acf5ca78fcbef75f
+7	2768	7764682756742346	CMakeFiles/Wiki.dir/Card/Card.cpp.obj	370e55ac9e560c80
+39	6927	7764681835251696	CMakeFiles/Wiki.dir/Deck/TopDeck.cpp.obj	fcdf91611ffe48ff
+13	3102	7764682129197478	CMakeFiles/Wiki.dir/Deck/BottomDeck.cpp.obj	452d8de5981fec16
+28	6707	7764681835131693	CMakeFiles/Wiki.dir/TManagers/BottomTableManager.cpp.obj	c2de690ac774bdc2
