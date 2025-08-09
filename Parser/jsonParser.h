@@ -22,9 +22,17 @@ extern std::vector<Card> cardsGlobal1;
 extern std::vector<Card> cardsGlobal2;
 extern std::vector<Card> cardsGlobal3;
 extern std::vector<Card> cardsGlobal4;
+
+
 class jsonParser {
   public:
     static ifstream getVersionFile();
+
+    static bool hasInvalidName(const string & itemName);
+
+    static void setValidName(string * itemName);
+
+
     static void parseCards(nlohmann::json j, vector<Card> * cardsP);
     static void parseDefinedVersion();
 };

@@ -15,7 +15,7 @@ vector<Card> cardsGlobal3;
 vector<Card> cardsGlobal4;
 
 ifstream jsonParser::getVersionFile() {
-    string filePath = "Parser/"  patchVersion  ".json";
+    string filePath = "../Parser/"  patchVersion  ".json";
     ifstream file(filePath);
     if (!file) {
         throw runtime_error("Could not open " + filePath);
@@ -23,22 +23,51 @@ ifstream jsonParser::getVersionFile() {
     return move(file);
 }
 
+bool jsonParser::hasInvalidName(const string &itemName) {
+ return   find(invalidItemNames.begin(), invalidItemNames.end(), itemName) != invalidItemNames.end();
+}
+
+void jsonParser::setValidName( string * itemName) {
+    switch (itemName) {
+        case POROSNAXS:
+            *itemName=POROSNAXSV;
+        break;
+        case STOPWATCH:
+            *itemName=STOPWATCHV;
+        break;
+        case ELIXIROFSKILLS:
+            *itemName=ELIXIROFSKILLSV;
+        break;
+        case WANDERERBLESSING:
+            *itemName=WANDERERBLESSINGV;
+        break;
+    }
+}
+
 void jsonParser::parseCards(nlohmann::json j, vector<Card>* cardsP) {
     size_t i=0;
     string s="1";
     string cardname;
     string item1Name;
-    int item1Level=0;
+    int item1Level;
     string item2Name;
-    int item2Level=0;
-    int cost;
+    int item2Level;
+    int cost=10;
     nlohmann::json cardJ;
-    while (j.contains(s) && i<cardsP->size()) {
+    size_t size=cardsP->size();
+    while (j.contains(s) && i<MAXCARDSS) {
+        item1Name="";
+        item1Level=0;
+        item2Name="";
+        item2Level=0;
         cardJ=j[s];
         cardname=cardJ.at("name").get<string>();
         cost = cardJ.at("cost").get<int>();
         if (cardJ.contains("item1")) {
             item1Name=cardJ.at("item1").get<string>();
+            if (hasInvalidName(item1Name)){
+                setValidName(&item1Name);
+            }
             item1Level=cardJ.at("item1Level").get<int>();
         }
         if (cardJ.contains("item2")) {

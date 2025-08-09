@@ -129,6 +129,16 @@ string Card::getTopTextFromlevel() const {
    return getTopTextFromlevel(item1Level);
 }
 
+void Card::print() {
+    cout<<name<< " ";
+    cout<<cost<< "\n";
+    cout<<item1<< " ";
+    cout<<item1Level<<"\n";
+    cout<<item2<< " ";
+    cout<<item2Level<<"\n";
+
+}
+
 string Card::getTopTextFromlevel(int itemLevel) {
     switch (itemLevel) {
         case U2N:

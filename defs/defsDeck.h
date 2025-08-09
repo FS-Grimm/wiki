@@ -10,6 +10,7 @@
 
 #define DEFS_H
 #define MAXCARDS 8
+#define MAXCARDSS 13
 #define UTILITYSEPARATOR "|"
 
 #define CHAMP1 "Mel"

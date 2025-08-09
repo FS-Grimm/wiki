@@ -36,48 +36,44 @@ class Card {
     int item2Level=0;
 
     int cost=0;
-
     void setItem2Text(string & item2Text);
     void setItemText(string & itemText);
-    string getItem1Text();
-    string getItem2Text();
+    void setCost(const string & substr);
+
+    int getLevelFromText(const string &itemLevelText);
+
+    [[nodiscard]] string getItemName(bool first) const;
+
    public:
+    Card(const string &  name,int cost, const std::string & item1, int item1Level, const std::string & item2Name, int item2Level);
     Card(const string & cardName, string itemText);
     Card();
 
-    Card(const string &  name,int cost, const std::string & item1, int item1Level, const std::string & item2Name, int item2Level);
 
-    void setCost(const string & substr);
 
     void swapItems();
 
     [[nodiscard]] bool has2Items() const;
 
-
-
-
-    int getLevelFromText(const string &itemLevelText);
-
-
-    [[nodiscard]] int getItemLevel(bool first) const;
-
-    [[nodiscard]] string getItemName(bool first) const;
-
     [[nodiscard]] string getLoRCard();
-
     [[nodiscard]] string getPoCItem(bool first) const;
 
     [[nodiscard]] string getTopTextFromlevel() const;
+
+    void print();
+
     [[nodiscard]] static string  getTopTextFromlevel(int itemLevel) ;
 
     [[nodiscard]] string getBottomTextFromlevel(bool first) const;
 
-   static  bool cmpByCost(const Card &c1,const Card &c2);
+    [[nodiscard]] int getItemLevel(bool first) const;
 
-   static bool cmpByLevel(const Card &c1,const Card &c2) ;
 
-   static bool cmpAlphabetically(const Card &c1,const Card &c2);
+    static  bool cmpByCost(const Card &c1,const Card &c2);
 
+    static bool cmpByLevel(const Card &c1,const Card &c2) ;
+
+    static bool cmpAlphabetically(const Card &c1,const Card &c2);
 };
 
 

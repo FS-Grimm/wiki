@@ -3,8 +3,12 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
+#include "parser/jsonParser.h"
 #include "TManagers/BottomTableManager.h"
 #include "TManagers/TopTableManager.h"
+
+
+
 int main() {
 
     TopTableManager::makeTable(1);
@@ -13,6 +17,13 @@ int main() {
 
     TopTableManager::makeTable(2);
 
+    jsonParser::parseDefinedVersion();
+    vector<Card>::iterator it;
+
+    for (it = cardsGlobal1.begin(); it != cardsGlobal1.end(); ++it) {
+        it->print();
+        cout<< "------------ \n";
+    }
     return 0;
 }
 
