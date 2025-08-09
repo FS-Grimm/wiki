@@ -9,5 +9,4 @@
 |level21= {{LoR|Howling Gale}} starts with {{PoC|item|Ardent Censer}}.
 |level24= {{LoR|Lest}} starts with {{PoC|item|Coralcrush Gauntlets}}.
 |level27= 
-
 }}

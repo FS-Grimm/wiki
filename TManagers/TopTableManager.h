@@ -6,7 +6,7 @@
 #define TOPTABLEMAKER_H
 #include "../Deck/TopDeck.h"
 const std::vector level {
-    U2N,U3N, U4N,U6N,U9N, U12N,U15N,U18N,U21N,U24N,U27N
+    U2N,U3N, U4N,U6N,U9N, U12N,U15N,U18N,U21N,U24N,U27N, 3000000
 };
 
 inline const char* STARTSWITH= " starts with ";

@@ -41,7 +41,7 @@ void TopTableManager::makeTable(int deckNumber) {
         i++;
         key= level[i];
     }
-    fprintf(f,"}}\n");
+    fprintf(f,"}}");
     fclose(f);
 }
 
