@@ -9,8 +9,9 @@
 #define WANDERERBLESSING "Wanderer's Blessing"
 #define POROSNAXS "Poro Snax"
 #define STOPWATCH "Stopwatch"
+#define MANAPOTION "Mana Potion"
 
-const std::vector invalidItemNames={ ELIXIROFSKILLS, WANDERERBLESSING, POROSNAXS, STOPWATCH };
+const std::vector invalidItemNames={ ELIXIROFSKILLS, WANDERERBLESSING, POROSNAXS, STOPWATCH, MANAPOTION };
 
 #define ELIXIROFSKILLSV "Elixir of Skill Spells/Landmarks"
 #define ELIXIROFSKILLSS "Elixir of Skill Spells",
@@ -27,7 +28,6 @@ const std::vector invalidItemNames={ ELIXIROFSKILLS, WANDERERBLESSING, POROSNAXS
 
 #define STUDDEDLEATHER "Studded Leather"
 
-#define MANAPOTION "Mana Potion"
 #define MANAPOTIONV "Mana Potion Spells/Landmarks/Equipments"
 #define MANAPOTIONS "Mana Potion Spells"
 #define MANAPOTIONL "Mana Potion Landmarks"
