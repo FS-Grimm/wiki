@@ -14,7 +14,6 @@ using namespace std;
 protected:
 
   string champ;
-  void setChamp(const string & champ);
 
   string getChamp(int deckNumber);
 
@@ -23,14 +22,16 @@ protected:
   const char **getItems(int deckNumber);
 
 public:
+   void setChamp(const string & champ);
+
   virtual ~Deck() ;
 
 
   [[nodiscard]] virtual const string getChampFile() const;
-  virtual size_t getSize();
+  virtual size_t getSize() const;
   virtual void add(Card card);
-  virtual Card getCard(size_t pos);
-  string getChamp();
+  virtual Card getCard(size_t pos) const;
+  string getChamp() const;
 
   string getPoCChamp() const;
 };

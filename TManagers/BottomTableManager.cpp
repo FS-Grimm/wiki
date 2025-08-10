@@ -56,17 +56,14 @@ void BottomTableManager::addItem2Line(FILE *file, Card &card) {
     fprintf(file, card.getBottomTextFromlevel(false).c_str());
 }
 
-void BottomTableManager::makeTable(int deckNumber) {
-    auto deck= BottomDeck(deckNumber);
-    string champ= deck.getChamp();
+void BottomTableManager::writeFile(const BottomDeck &deck) {
+    string champ=deck.getChamp();
     FILE * f= fopen(deck.getChampFile().c_str(), "w");
-
     addStart(f);
     addChampLine(f,champ);
     size_t i = 0;
-    Card card;
     while (!feof(f) && i<MAXCARDS) {
-        card= deck.getCard(i);
+        Card card = deck.getCard(i);
         addCardLine(f,card);
         addItem1Line(f,card);
         addItem2Line(f,card);
@@ -76,4 +73,18 @@ void BottomTableManager::makeTable(int deckNumber) {
         i++;
     }
     fprintf(f,"|}\n");
+
+}
+
+void BottomTableManager::makeTable(int deckNumber) {
+    auto deck= BottomDeck(deckNumber);
+    string champ= deck.getChamp();
+    writeFile(deck);
+}
+
+void BottomTableManager::makeTable(const string &champ, const vector<Card> &cardsV) {
+    auto deck= BottomDeck(cardsV);
+    deck.setChamp(champ);
+    writeFile(deck);
+
 }

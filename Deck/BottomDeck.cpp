@@ -10,8 +10,9 @@ void BottomDeck::makeDeck(const string &champ, const char **cardsChamp, const ch
     setChamp(champ);
     for (int i = 0; i < MAXCARDS; i++) {
         card=Card(cardsChamp[i],itemsChamp[i]);
-        add(card);
-    }}
+        BottomDeck::add(card);
+    }
+}
 
 BottomDeck::BottomDeck(int deckNumber) {
     makeDeck(getChamp(deckNumber),getCards(deckNumber),getItems(deckNumber));
@@ -19,16 +20,20 @@ BottomDeck::BottomDeck(int deckNumber) {
     sortByCost();
 }
 
+BottomDeck::BottomDeck(const vector<Card> &cardsV) {
+    cards=cardsV;
+}
+
 const string BottomDeck::getChampFile() const {
         return "../champs/" +champ +  "B.txt";
 }
 
 
-size_t BottomDeck::getSize() {
+size_t BottomDeck::getSize() const {
     return cards.size();
 }
 
-Card BottomDeck::getCard(size_t pos) {
+Card BottomDeck::getCard(size_t pos) const {
     return cards[pos];
 }
 

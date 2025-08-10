@@ -33,3 +33,10 @@
 5814	7757	7764899209038851	Wiki.exe	33cbb5676cc0a9a6
 8	5573	7764899456572763	CMakeFiles/Wiki.dir/Parser/jsonParser.cpp.obj	6938c90a46c6e96f
 5573	7368	7764899512227290	Wiki.exe	33cbb5676cc0a9a6
+19	5476	7764983369519875	CMakeFiles/Wiki.dir/TManagers/BottomTableManager.cpp.obj	4885addaca299e99
+14	5560	7764983369468618	CMakeFiles/Wiki.dir/TManagers/TopTableManager.cpp.obj	4c54b934da455c7a
+29	5735	7764983369621344	CMakeFiles/Wiki.dir/Deck/TopDeck.cpp.obj	7b442483c944ea6
+35	5738	7764983369672050	CMakeFiles/Wiki.dir/Deck/BottomDeck.cpp.obj	60fb42a7f2194cb1
+9	6412	7764983369412935	CMakeFiles/Wiki.dir/main.cpp.obj	3a4001ced904555e
+8	2815	7764983654824144	CMakeFiles/Wiki.dir/Deck/Deck.cpp.obj	50060cf0f3b9b36e
+2816	4541	7764983682898142	Wiki.exe	33cbb5676cc0a9a6

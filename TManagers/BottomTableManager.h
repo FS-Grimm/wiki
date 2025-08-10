@@ -26,8 +26,11 @@ public:
     static void addItem2Line(FILE * file, Card & card);
 
 
+    static void writeFile(const BottomDeck & deck);
+
     static void makeTable(int deckNumber);
 
+    static void makeTable(const string & champ, const vector<Card> & cardsV);
 };
 
 

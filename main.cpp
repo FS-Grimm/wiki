@@ -10,20 +10,14 @@
 
 
 int main() {
-
-    TopTableManager::makeTable(1);
-    BottomTableManager::makeTable(1);
-    BottomTableManager::makeTable(2);
-
-    TopTableManager::makeTable(2);
-
     jsonParser::parseDefinedVersion();
-    vector<Card>::iterator it;
 
-    for (it = cardsGlobal1.begin(); it != cardsGlobal1.end(); ++it) {
-        it->print();
-        cout<< "------------ \n";
-    }
+    BottomTableManager::makeTable(champ1,cardsGlobal1);
+    TopTableManager::makeTable(champ1,cardsGlobal1);
+
+    BottomTableManager::makeTable(champ2,cardsGlobal2);
+    TopTableManager::makeTable(champ2,cardsGlobal2);
+
     return 0;
 }
 

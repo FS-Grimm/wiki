@@ -13,12 +13,14 @@ class TopDeck:public Deck{
 public:
     explicit TopDeck(int deckNumber);
 
+    explicit TopDeck(const vector<Card> & cardsV);
+
     [[nodiscard]] const string getChampFile() const override;
-    size_t getSize() override;
+    size_t getSize() const override;
 
-    bool hasKey(size_t key);
+    bool hasKey(size_t key) const;
 
-    Card getCard(size_t level) override;
+    Card getCard(size_t level) const override;
 
     void add(Card card) override;
     ~TopDeck() override;

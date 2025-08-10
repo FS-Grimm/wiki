@@ -10,15 +10,12 @@ void TopTableManager::addStart(FILE *f) {
    fprintf(f," {{PoCChampionLevel\n");
 }
 
-void TopTableManager::makeTable(int deckNumber) {
-    auto deck= TopDeck(deckNumber);
-    string champ= deck.getChamp();
-    string champFile = deck.getChampFile();
-
+void TopTableManager::writeFile(const TopDeck &deck) {
+    string champFile= deck.getChampFile();
     FILE * f= fopen(champFile.c_str(), "w");
     if (!f) {
         perror("fopen failed");
-        std::cerr << "Path: [" << deck.getChampFile() << "]\n";
+        std::cerr << "Path: [" << champFile << "]\n";
     }
     addStart(f);
     Card card;
@@ -43,6 +40,17 @@ void TopTableManager::makeTable(int deckNumber) {
     }
     fprintf(f,"}}");
     fclose(f);
+}
+
+void TopTableManager::makeTable(int deckNumber) {
+    auto deck= TopDeck(deckNumber);
+    writeFile(deck);
+}
+
+void TopTableManager::makeTable(const string &champ, const vector<Card> &cardsV) {
+    auto deck= TopDeck(cardsV);
+    deck.setChamp(champ);
+    writeFile(deck);
 }
 
 

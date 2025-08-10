@@ -18,6 +18,10 @@ public:
     static void addEmptyCardLine(FILE * file, size_t key);
 
     static void makeTable(int deckNumber);
+
+    static void writeFile(const TopDeck & deck);
+
+    static void makeTable(const string & string, const vector<Card> & cards);
 };
 
 

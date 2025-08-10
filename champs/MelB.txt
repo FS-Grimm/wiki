@@ -42,7 +42,7 @@
 |
 |-
 |{{LoR|Rebuttal}} (x2)
-|{{PoC|item|Mana Potion Spells}} (Level 3)
+|{{PoC|item|Mana Potion Spells/Landmarks/Equipments}} (Level 3)
 |
 |
 |}

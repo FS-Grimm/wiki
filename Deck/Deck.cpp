@@ -59,19 +59,19 @@ const string Deck::getChampFile() const {
 	return champ;
 }
 
-size_t Deck::getSize() {
+size_t Deck::getSize() const {
 	return 0;
 }
 
 void Deck::add(Card card) {
 }
 
-Card Deck::getCard(size_t pos) {
+Card Deck::getCard(size_t pos) const {
 	return Card();
 }
 
 
-string Deck::getChamp() {
+string Deck::getChamp() const {
 	return champ;
 }
 string Deck::getPoCChamp() const {

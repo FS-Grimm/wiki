@@ -21,7 +21,12 @@ TopDeck::TopDeck(int deckNumber) {
     }
 }
 
-
+TopDeck::TopDeck(const vector<Card> &cardsV) {
+    for (size_t i = 0; i < MAXCARDS; i++) {
+        Card card=cardsV[i];
+        TopDeck::add(card);
+    }
+}
 
 
 void TopDeck::add(Card card) {
@@ -38,14 +43,14 @@ const string TopDeck::getChampFile() const {
     return "../champs/" +champ +  "T.txt";
 }
 
-size_t TopDeck::getSize() {
+size_t TopDeck::getSize() const {
     return cards.size();
 }
 
 
-bool TopDeck::hasKey(size_t key) {
+bool TopDeck::hasKey(size_t key) const {
     return cards.count(key) == 1;
 }
-Card TopDeck::getCard(size_t level) {
+Card TopDeck::getCard(size_t level) const {
     return cards.at(level);
 }

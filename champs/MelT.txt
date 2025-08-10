@@ -1,6 +1,6 @@
  {{PoCChampionLevel
 |level2= {{LoR|Lest}} starts with {{PoC|item|Bounty Board}}.
-|level3= {{LoR|Rebuttal}} starts with {{PoC|item|Mana Potion Spells}}.
+|level3= {{LoR|Rebuttal}} starts with {{PoC|item|Mana Potion Spells/Landmarks/Equipments}}.
 |level6= {{LoR|Academy Prodigy}} starts with {{PoC|item|Entrancing Lure}}.
 |level9= {{LoR|Ballistic Bot}} starts with {{PoC|item|Studded Leather}}.
 |level12= {{LoR|Elora}} starts with {{PoC|item|Skirmisher's Sabre}}.
