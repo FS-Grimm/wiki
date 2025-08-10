@@ -1,5 +1,4 @@
 {
-
   "1": {
     "name": "Spirit Blossom Ahri",
     "1": {
@@ -55,7 +54,80 @@
       "item1": "NAME",
       "item1Level": 0
     }
+  },
+  "2": {
+    "name": "Spirit Blossom Evelynn",
+    "1": {
+      "name": "Mark of the Isles",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "2": {
+      "name": "Stirred Spirits",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "3": {
+      "name": "Fated Suplicant",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "4": {
+      "name": "Spirit's Embrace",
+      "cost": 3,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "5": {
+      "name": "Withering Wail",
+      "cost": 4,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "6": {
+      "name": "Occult Oportunist",
+      "cost": 3,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "7": {
+      "name": "Bewitch",
+      "cost": 5,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "8": {
+      "name": "Shadow Swindler",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "E1": {
+      "name": "Beckoning Gaze",
+      "related": "",
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    }
   }
-
-
 }
