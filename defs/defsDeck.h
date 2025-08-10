@@ -4,7 +4,7 @@
 #pragma once
 
 #ifndef DEFS_H
-#include "defsItems.h"
+#include "defsInvalidItems.h"
 #include "defsUpgradeLevels.h"
 #include "defsCards.h"
 
@@ -35,7 +35,7 @@ inline const char *itemsChamp1[MAXITEMS] = {
     { "Ardent Censer" BLEVELTEXT21 },
     { POROSNAXSS BLEVELTEXT15 },
     { "Savage Shield" BLEVELTEXT18 },
-    { MANAPOTIONS BLEVELTEXT3} //Card 8 I 1/2
+    { "Mana Potion" BLEVELTEXT3} //Card 8 I 1/2
 };
 
 

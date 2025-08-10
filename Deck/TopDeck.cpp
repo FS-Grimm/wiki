@@ -40,7 +40,7 @@ void TopDeck::add(Card card) {
 TopDeck::~TopDeck() = default;
 
 const string TopDeck::getChampFile() const {
-    return "../champs/" +champ +  "T.txt";
+    return "../champs/v" patchVersion "/" +champ +  "T.txt";
 }
 
 size_t TopDeck::getSize() const {

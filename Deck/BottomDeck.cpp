@@ -25,7 +25,7 @@ BottomDeck::BottomDeck(const vector<Card> &cardsV) {
 }
 
 const string BottomDeck::getChampFile() const {
-        return "../champs/" +champ +  "B.txt";
+        return "../champs/v" patchVersion "/"+ champ +  "B.txt";
 }
 
 

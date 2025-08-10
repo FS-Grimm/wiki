@@ -5,7 +5,6 @@
 #include "TopTableManager.h"
 
 
-
 void TopTableManager::addStart(FILE *f) {
    fprintf(f," {{PoCChampionLevel\n");
 }

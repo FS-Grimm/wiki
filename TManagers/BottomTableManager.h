@@ -2,9 +2,10 @@
 // Created by Felipe on 1/8/2025.
 //
 
-#ifndef BOTTOMTABLEMAKER_H
-#define BOTTOMTABLEMAKER_H
+#ifndef BOTTOMTABLEMANAGER_H
+#define BOTTOMTABLEMANAGER_H
 #include "../Deck/BottomDeck.h"
+
 #include <cwchar>
 #include <cstdio>
 
@@ -35,4 +36,4 @@ public:
 
 
 
-#endif //BOTTOMTABLEMAKER_H
+#endif //BOTTOMTABLEMANAGER_H

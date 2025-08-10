@@ -18,7 +18,8 @@ ifstream jsonParser::getVersionFile() {
     string filePath = "../Parser/"  patchVersion  ".json";
     ifstream file(filePath);
     if (!file) {
-        throw runtime_error("Could not open " + filePath);
+        throw runtime_error(filePath +" does not exist, please try a different version or define it");
+
     }
     return move(file);
 }
@@ -35,10 +36,8 @@ void jsonParser::setValidName( string * itemName) {
         *itemName=WANDERERBLESSINGV;
     } else if (*itemName==ELIXIROFSKILLS) {
         *itemName=ELIXIROFSKILLSV;
-    } else  if (*itemName==STOPWATCH){
+    } else  { //if (*itemName==STOPWATCH)
         *itemName=STOPWATCHV;
-    } else { //if (*itemName==MANAPOTION)
-        *itemName=MANAPOTIONV;
     }
 }
 

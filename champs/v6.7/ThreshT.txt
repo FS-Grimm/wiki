@@ -1,0 +1,12 @@
+ {{PoCChampionLevel
+|level2= {{LoR|Cursed Keeper}} starts with {{PoC|item|Skirmisher's Sabre}}.
+|level3= {{LoR|Phantom Prankster}} starts with {{PoC|item|Chain Vest}}.
+|level6= {{LoR|Vengeance}} starts with {{PoC|item|Tear of the Goddess}}.
+|level9= {{LoR|Spirit Leech}} starts with {{PoC|item|Greatclub}}.
+|level12= {{LoR|Warden's Prey}} starts with {{PoC|item|Studded Leather}}.
+|level15= {{LoR|Camavoran Soldier}} starts with {{PoC|item|Arcane Knowledge}}.
+|level18= {{LoR|Vile Feast}} starts with {{PoC|item|Charging Sigil I}}.
+|level21= {{LoR|The Wings and The Wave}} starts with {{PoC|item|Farsight Alteration}}.
+|level24= 
+|level27= {{LoR|Cursed Keeper}} starts with {{PoC|item|Pickaxe}}.
+}}

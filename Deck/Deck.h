@@ -5,6 +5,7 @@
 #ifndef DECK_H
 #define DECK_H
 #include "../Card/Card.h"
+#include "../Parser/jsonParser.h"
 
 using namespace std;
 
@@ -26,7 +27,7 @@ public:
 
   virtual ~Deck() ;
 
-
+  string getPatchDirectory();
   [[nodiscard]] virtual const string getChampFile() const;
   virtual size_t getSize() const;
   virtual void add(Card card);

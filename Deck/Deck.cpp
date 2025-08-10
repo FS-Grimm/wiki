@@ -55,6 +55,10 @@ const char **Deck::getItems(int deckNumber) {
 
 Deck::~Deck() = default;
 
+string Deck::getPatchDirectory() {
+	return "../champs/v" patchVersion;
+}
+
 const string Deck::getChampFile() const {
 	return champ;
 }

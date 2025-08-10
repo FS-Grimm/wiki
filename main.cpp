@@ -3,20 +3,33 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
-#include "parser/jsonParser.h"
 #include "TManagers/BottomTableManager.h"
 #include "TManagers/TopTableManager.h"
 
+void createMissingDirectory() {
+    string champFile="../champs/v"  patchVersion "/"+ champ1 + "B.txt";
+    FILE* f=fopen(champFile.c_str(),"w");
+    if (!f)
+        std::filesystem::create_directories("../champs/v"  patchVersion);
+
+    fclose(f);
+}
 
 
 int main() {
+
+
     jsonParser::parseDefinedVersion();
+    createMissingDirectory();
 
-    BottomTableManager::makeTable(champ1,cardsGlobal1);
-    TopTableManager::makeTable(champ1,cardsGlobal1);
-
-    BottomTableManager::makeTable(champ2,cardsGlobal2);
-    TopTableManager::makeTable(champ2,cardsGlobal2);
+    vector champs = { &champ1, &champ2, &champ3, &champ4 };
+    vector  cardsGlobal ={ &cardsGlobal1,& cardsGlobal2,& cardsGlobal3, &cardsGlobal4};
+    size_t i=0;
+    while (!champs[i]->empty() && i<champs.size()) {
+        BottomTableManager::makeTable(*champs[i],*cardsGlobal[i]);
+        TopTableManager::makeTable(*champs[i],*cardsGlobal[i]);
+        i++;
+    }
 
     return 0;
 }
