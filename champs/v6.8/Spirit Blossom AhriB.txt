@@ -1,7 +1,7 @@
  {| class="wikitable"!Card
 ! colspan="3" |Item 
 |-
-|Spirit Blossom Ahri (x2)
+|{{LoR|Spirit Blossom Ahri}} (x2)
 |[[File:PoC Common Relic icon.png|25px|link=]] at unlocked<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 8
 |[[File:PoC Common Relic icon.png|25px|link=]] at level 13<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 19
 |[[File:PoC Common Relic icon.png|25px|link=]] at level 25<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 30

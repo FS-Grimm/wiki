@@ -81,6 +81,8 @@ string Deck::getChamp() const {
 string Deck::getPoCChamp() const {
 	return "{{PoC|" + champ + "}}";
 }
-
+string Deck::getLoRChamp() const {
+	return "{{LoR|" + champ + "}}";
+}
 
 

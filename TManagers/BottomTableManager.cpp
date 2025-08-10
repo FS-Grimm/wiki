@@ -57,14 +57,13 @@ void BottomTableManager::addItem2Line(FILE *file, Card &card) {
 }
 
 void BottomTableManager::writeFile(const BottomDeck &deck) {
-    string champ=deck.getChamp();
+    string champ=deck.getLoRChamp();
     string champFile=deck.getChampFile();
     FILE * f= fopen(champFile.c_str(), "w");
     if (!f) {
         perror("fopen failed");
         std::cerr << "Path: [" << champFile << "]\n";
     }
-
     addStart(f);
     addChampLine(f,champ);
     size_t i = 0;

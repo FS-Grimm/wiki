@@ -146,3 +146,12 @@
 5252	12622	7765054503563805	C:/Users/Felipe/CLionProjects/Wiki/cmake-build-debug/WikiTests-b12d07c_tests.cmake	2d08768b6711f80d
 18	4519	7765057734666408	CMakeFiles/Wiki.dir/main.cpp.obj	3a4001ced904555e
 4519	6462	7765057779674951	Wiki.exe	33cbb5676cc0a9a6
+13	3830	7765474273578118	CMakeFiles/Wiki.dir/TManagers/BottomTableManager.cpp.obj	4885addaca299e99
+3831	5924	7765474311752649	Wiki.exe	33cbb5676cc0a9a6
+31	9360	7765475110673268	CMakeFiles/Wiki.dir/TManagers/BottomTableManager.cpp.obj	4885addaca299e99
+22	9442	7765475110581443	CMakeFiles/Wiki.dir/TManagers/TopTableManager.cpp.obj	4c54b934da455c7a
+39	9630	7765475110758459	CMakeFiles/Wiki.dir/Deck/Deck.cpp.obj	50060cf0f3b9b36e
+14	9637	7765475110501356	CMakeFiles/Wiki.dir/main.cpp.obj	3a4001ced904555e
+48	9687	7765475110848953	CMakeFiles/Wiki.dir/Deck/TopDeck.cpp.obj	7b442483c944ea6
+57	9847	7765475110934180	CMakeFiles/Wiki.dir/Deck/BottomDeck.cpp.obj	60fb42a7f2194cb1
+9847	11783	7765475208822928	Wiki.exe	33cbb5676cc0a9a6

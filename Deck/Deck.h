@@ -35,7 +35,9 @@ public:
   string getChamp() const;
 
   string getPoCChamp() const;
-};
+
+  string getLoRChamp() const;
+ };
 
 
 
