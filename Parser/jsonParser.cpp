@@ -14,14 +14,18 @@ vector<Card> cardsGlobal2;
 vector<Card> cardsGlobal3;
 vector<Card> cardsGlobal4;
 
-ifstream jsonParser::getVersionFile() {
-    string filePath = "../Parser/"  patchVersion  ".json";
+ifstream jsonParser::getVersionFile_impl(string filePath) {
     ifstream file(filePath);
     if (!file) {
         throw runtime_error(filePath +" does not exist, please try a different version or define it");
-
     }
     return move(file);
+
+}
+
+ifstream jsonParser::getVersionFile() {
+    string filePath = "../Parser/"  patchVersion  ".json";
+    return getVersionFile_impl(filePath);
 }
 
 bool jsonParser::hasInvalidName(const string &itemName) {

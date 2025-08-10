@@ -8,18 +8,17 @@ EXEC := wiki
 SRCS := $(wildcard *.c)
 OBJS := $(SRCS:%.c=%.o)
 
-all: $(EXEC)
+run:
+	cmake -S . -B build
+	cmake --build build
+	./build/Wiki
 
-$(EXEC): $(OBJS)
 
-valgrind: $(EXEC)
-	valgrind --leak-check=full --show-leak-kinds=all ./$(EXEC)
 
 test:
-	./tests/run
-
-test-%:
-	./tests/run $*
+	cmake -S . -B build
+	cmake --build build
+	./build/WikiTests
 
 format: .clang-files .clang-format
 	xargs -r clang-format -i <$<

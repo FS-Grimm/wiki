@@ -26,6 +26,8 @@ extern std::vector<Card> cardsGlobal4;
 
 class jsonParser {
   public:
+    static ifstream getVersionFile_impl(string filePath);
+
     static ifstream getVersionFile();
 
     static bool hasInvalidName(const string & itemName);

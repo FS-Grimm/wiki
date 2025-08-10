@@ -14,6 +14,176 @@
 # EXTERNAL cache entries
 ########################
 
+//Build the testing tree.
+BUILD_TESTING:BOOL=ON
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_ANDROID_LOGWRITE:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_BAZEL_SUPPORT:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_COLOUR_WIN32:BOOL=OFF
+
+//Read docs/configuration.md for details. Must form a valid integer
+// literal.
+CATCH_CONFIG_CONSOLE_WIDTH:STRING=80
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_COUNTER:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_CPP11_TO_STRING:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_CPP17_BYTE:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_CPP17_OPTIONAL:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_CPP17_STRING_VIEW:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_CPP17_UNCAUGHT_EXCEPTIONS:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_CPP17_VARIANT:BOOL=OFF
+
+//Read docs/configuration.md for details. The name of the reporter
+// should be without quotes.
+CATCH_CONFIG_DEFAULT_REPORTER:STRING=console
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_DISABLE:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_DISABLE_EXCEPTIONS:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_DISABLE_EXCEPTIONS_CUSTOM_HANDLER:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_DISABLE_STRINGIFICATION:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_ENABLE_ALL_STRINGMAKERS:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_ENABLE_OPTIONAL_STRINGMAKER:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_ENABLE_PAIR_STRINGMAKER:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_ENABLE_TUPLE_STRINGMAKER:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_ENABLE_VARIANT_STRINGMAKER:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_EXPERIMENTAL_REDIRECT:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_EXPERIMENTAL_STATIC_ANALYSIS_SUPPORT:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_FAST_COMPILE:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_GETENV:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_GLOBAL_NEXTAFTER:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NOSTDOUT:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_ANDROID_LOGWRITE:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_BAZEL_SUPPORT:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_COLOUR_WIN32:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_COUNTER:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_CPP11_TO_STRING:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_CPP17_BYTE:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_CPP17_OPTIONAL:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_CPP17_STRING_VIEW:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_CPP17_UNCAUGHT_EXCEPTIONS:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_CPP17_VARIANT:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_EXPERIMENTAL_STATIC_ANALYSIS_SUPPORT:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_GETENV:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_GLOBAL_NEXTAFTER:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_POSIX_SIGNALS:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_USE_ASYNC:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_WCHAR:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_NO_WINDOWS_SEH:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_POSIX_SIGNALS:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_PREFIX_ALL:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_PREFIX_MESSAGES:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_USE_ASYNC:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_WCHAR:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_WINDOWS_CRTDBG:BOOL=OFF
+
+//Read docs/configuration.md for details
+CATCH_CONFIG_WINDOWS_SEH:BOOL=OFF
+
+//Build tests, enable warnings, enable Werror, etc
+CATCH_DEVELOPMENT_BUILD:BOOL=OFF
+
+//Add compiler flags for improving build reproducibility
+CATCH_ENABLE_REPRODUCIBLE_BUILD:BOOL=ON
+
+//Install documentation alongside library
+CATCH_INSTALL_DOCS:BOOL=ON
+
+//Install extras (CMake scripts, debugger helpers) alongside library
+CATCH_INSTALL_EXTRAS:BOOL=ON
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/bin/addr2line.exe
 
@@ -305,6 +475,34 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to the coverage program that CTest uses for performing coverage
+// inspection
+COVERAGE_COMMAND:FILEPATH=C:/Program Files/JetBrains/CLion 2024.3.4/bin/mingw/bin/gcov.exe
+
+//Extra command line flags to pass to the coverage tool
+COVERAGE_EXTRA_FLAGS:STRING=-l
+
+//How many times to retry timed-out CTest submissions.
+CTEST_SUBMIT_RETRY_COUNT:STRING=3
+
+//How long to wait between timed-out CTest submissions.
+CTEST_SUBMIT_RETRY_DELAY:STRING=5
+
+//Dependencies for the target
+Catch2WithMain_LIB_DEPENDS:STATIC=general;Catch2;
+
+//Value Computed by CMake
+Catch2_BINARY_DIR:STATIC=C:/Users/Felipe/CLionProjects/Wiki/cmake-build-debug/_deps/catch2-build
+
+//Value Computed by CMake
+Catch2_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Catch2_SOURCE_DIR:STATIC=C:/Users/Felipe/CLionProjects/Wiki/cmake-build-debug/_deps/catch2-src
+
+//Maximum time allowed before CTest will kill the test.
+DART_TESTING_TIMEOUT:STRING=1500
+
 //Directory under which to collect all populated content
 FETCHCONTENT_BASE_DIR:PATH=C:/Users/Felipe/CLionProjects/Wiki/cmake-build-debug/_deps
 
@@ -316,14 +514,34 @@ FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
 FETCHCONTENT_QUIET:BOOL=ON
 
 //When not empty, overrides where to find pre-populated content
+// for catch2
+FETCHCONTENT_SOURCE_DIR_CATCH2:PATH=
+
+//When not empty, overrides where to find pre-populated content
 // for nlohmann_json
 FETCHCONTENT_SOURCE_DIR_NLOHMANN_JSON:PATH=
+
+//When not empty, overrides where to find pre-populated content
+// for UnitTest++
+FETCHCONTENT_SOURCE_DIR_UNITTEST++:PATH=
 
 //Enables UPDATE_DISCONNECTED behavior for all content population
 FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 
+//Enables UPDATE_DISCONNECTED behavior just for population of catch2
+FETCHCONTENT_UPDATES_DISCONNECTED_CATCH2:BOOL=OFF
+
 //Enables UPDATE_DISCONNECTED behavior just for population of nlohmann_json
 FETCHCONTENT_UPDATES_DISCONNECTED_NLOHMANN_JSON:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of UnitTest++
+FETCHCONTENT_UPDATES_DISCONNECTED_UNITTEST++:BOOL=OFF
+
+//Path to a program.
+GITCOMMAND:FILEPATH=C:/Program Files/Git/cmd/git.exe
+
+//Git command line client
+GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
 
 //Build the unit tests when BUILD_TESTING is enabled.
 JSON_BuildTests:BOOL=OFF
@@ -355,6 +573,43 @@ JSON_MultipleHeaders:BOOL=ON
 //Include as system headers (skip for clang-tidy).
 JSON_SystemInclude:BOOL=OFF
 
+//Identifier to add to end of lib directory name e.g. 64 for lib64
+LIB_SUFFIX:STRING=
+
+//Command to build the project
+MAKECOMMAND:STRING="C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
+
+//Path to the memory checking command, used for memory error detection.
+MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
+
+//File that contains suppressions for the memory checker
+MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
+
+//Name of the computer/site where compile is being run
+SITE:STRING=FeliPc
+
+//Set this to OFF if you wish to use CMake default warning levels;
+// should generally only use to work around support issues for
+// your specific compiler
+UTPP_AMPLIFY_WARNINGS:BOOL=ON
+
+//Set this to OFF if you do not wish to automatically build or
+// run unit tests as part of the default cmake --build
+UTPP_INCLUDE_TESTS_IN_BUILD:BOOL=ON
+
+//Set this to OFF if you wish to use '-cpp' instead of '++' in
+// lib/include paths
+UTPP_USE_PLUS_SIGN:BOOL=ON
+
+//Value Computed by CMake
+UnitTest++_BINARY_DIR:STATIC=C:/Users/Felipe/CLionProjects/Wiki/cmake-build-debug/_deps/unittest++-build
+
+//Value Computed by CMake
+UnitTest++_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+UnitTest++_SOURCE_DIR:STATIC=C:/Users/Felipe/CLionProjects/Wiki/cmake-build-debug/_deps/unittest++-src
+
 //Value Computed by CMake
 Wiki_BINARY_DIR:STATIC=C:/Users/Felipe/CLionProjects/Wiki/cmake-build-debug
 
@@ -378,6 +633,108 @@ nlohmann_json_SOURCE_DIR:STATIC=C:/Users/Felipe/CLionProjects/Wiki/cmake-build-d
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: CATCH_CONFIG_ANDROID_LOGWRITE
+CATCH_CONFIG_ANDROID_LOGWRITE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_BAZEL_SUPPORT
+CATCH_CONFIG_BAZEL_SUPPORT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_COLOUR_WIN32
+CATCH_CONFIG_COLOUR_WIN32-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_CONSOLE_WIDTH
+CATCH_CONFIG_CONSOLE_WIDTH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_COUNTER
+CATCH_CONFIG_COUNTER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_CPP11_TO_STRING
+CATCH_CONFIG_CPP11_TO_STRING-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_CPP17_BYTE
+CATCH_CONFIG_CPP17_BYTE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_CPP17_OPTIONAL
+CATCH_CONFIG_CPP17_OPTIONAL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_CPP17_STRING_VIEW
+CATCH_CONFIG_CPP17_STRING_VIEW-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_CPP17_UNCAUGHT_EXCEPTIONS
+CATCH_CONFIG_CPP17_UNCAUGHT_EXCEPTIONS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_CPP17_VARIANT
+CATCH_CONFIG_CPP17_VARIANT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_DEFAULT_REPORTER
+CATCH_CONFIG_DEFAULT_REPORTER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_DISABLE
+CATCH_CONFIG_DISABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_DISABLE_EXCEPTIONS
+CATCH_CONFIG_DISABLE_EXCEPTIONS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_DISABLE_EXCEPTIONS_CUSTOM_HANDLER
+CATCH_CONFIG_DISABLE_EXCEPTIONS_CUSTOM_HANDLER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_DISABLE_STRINGIFICATION
+CATCH_CONFIG_DISABLE_STRINGIFICATION-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_ENABLE_ALL_STRINGMAKERS
+CATCH_CONFIG_ENABLE_ALL_STRINGMAKERS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_ENABLE_OPTIONAL_STRINGMAKER
+CATCH_CONFIG_ENABLE_OPTIONAL_STRINGMAKER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_ENABLE_PAIR_STRINGMAKER
+CATCH_CONFIG_ENABLE_PAIR_STRINGMAKER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_ENABLE_TUPLE_STRINGMAKER
+CATCH_CONFIG_ENABLE_TUPLE_STRINGMAKER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_ENABLE_VARIANT_STRINGMAKER
+CATCH_CONFIG_ENABLE_VARIANT_STRINGMAKER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_EXPERIMENTAL_REDIRECT
+CATCH_CONFIG_EXPERIMENTAL_REDIRECT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_EXPERIMENTAL_STATIC_ANALYSIS_SUPPORT
+CATCH_CONFIG_EXPERIMENTAL_STATIC_ANALYSIS_SUPPORT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_FAST_COMPILE
+CATCH_CONFIG_FAST_COMPILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_GETENV
+CATCH_CONFIG_GETENV-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_GLOBAL_NEXTAFTER
+CATCH_CONFIG_GLOBAL_NEXTAFTER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NOSTDOUT
+CATCH_CONFIG_NOSTDOUT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_ANDROID_LOGWRITE
+CATCH_CONFIG_NO_ANDROID_LOGWRITE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_BAZEL_SUPPORT
+CATCH_CONFIG_NO_BAZEL_SUPPORT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_COLOUR_WIN32
+CATCH_CONFIG_NO_COLOUR_WIN32-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_COUNTER
+CATCH_CONFIG_NO_COUNTER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_CPP11_TO_STRING
+CATCH_CONFIG_NO_CPP11_TO_STRING-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_CPP17_BYTE
+CATCH_CONFIG_NO_CPP17_BYTE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_CPP17_OPTIONAL
+CATCH_CONFIG_NO_CPP17_OPTIONAL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_CPP17_STRING_VIEW
+CATCH_CONFIG_NO_CPP17_STRING_VIEW-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_CPP17_UNCAUGHT_EXCEPTIONS
+CATCH_CONFIG_NO_CPP17_UNCAUGHT_EXCEPTIONS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_CPP17_VARIANT
+CATCH_CONFIG_NO_CPP17_VARIANT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_EXPERIMENTAL_STATIC_ANALYSIS_SUPPORT
+CATCH_CONFIG_NO_EXPERIMENTAL_STATIC_ANALYSIS_SUPPORT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_GETENV
+CATCH_CONFIG_NO_GETENV-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_GLOBAL_NEXTAFTER
+CATCH_CONFIG_NO_GLOBAL_NEXTAFTER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_POSIX_SIGNALS
+CATCH_CONFIG_NO_POSIX_SIGNALS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_USE_ASYNC
+CATCH_CONFIG_NO_USE_ASYNC-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_WCHAR
+CATCH_CONFIG_NO_WCHAR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_NO_WINDOWS_SEH
+CATCH_CONFIG_NO_WINDOWS_SEH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_POSIX_SIGNALS
+CATCH_CONFIG_POSIX_SIGNALS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_PREFIX_ALL
+CATCH_CONFIG_PREFIX_ALL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_PREFIX_MESSAGES
+CATCH_CONFIG_PREFIX_MESSAGES-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_USE_ASYNC
+CATCH_CONFIG_USE_ASYNC-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_WCHAR
+CATCH_CONFIG_WCHAR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_WINDOWS_CRTDBG
+CATCH_CONFIG_WINDOWS_CRTDBG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CATCH_CONFIG_WINDOWS_SEH
+CATCH_CONFIG_WINDOWS_SEH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -394,6 +751,8 @@ CMAKE_CACHE_PATCH_VERSION:INTERNAL=5
 CMAKE_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/bin/cmake.exe
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/bin/cpack.exe
+//ADVANCED property for variable: CMAKE_CTEST_COMMAND
+CMAKE_CTEST_COMMAND-ADVANCED:INTERNAL=1
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2024.3.4/bin/cmake/win/x64/bin/ctest.exe
 //ADVANCED property for variable: CMAKE_CXX_COMPILER
@@ -508,7 +867,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -564,7 +923,41 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Test COMPILER_SUPPORTS_CXX11
+COMPILER_SUPPORTS_CXX11:INTERNAL=1
+//Test COMPILER_SUPPORTS_CXX14
+COMPILER_SUPPORTS_CXX14:INTERNAL=1
+//ADVANCED property for variable: COVERAGE_COMMAND
+COVERAGE_COMMAND-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: COVERAGE_EXTRA_FLAGS
+COVERAGE_EXTRA_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CTEST_SUBMIT_RETRY_COUNT
+CTEST_SUBMIT_RETRY_COUNT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CTEST_SUBMIT_RETRY_DELAY
+CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
+//Project GUID
+Catch2WithMain_GUID_CMAKE:INTERNAL=8bd3552a-2cfb-4a59-ab15-2031b97ada1e
+//Project GUID
+Catch2_GUID_CMAKE:INTERNAL=8d538cbe-01bf-4a2e-a98a-6c368fdf13d7
+//ADVANCED property for variable: DART_TESTING_TIMEOUT
+DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GITCOMMAND
+GITCOMMAND-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GIT_EXECUTABLE
+GIT_EXECUTABLE-ADVANCED:INTERNAL=1
+//Test HAVE_FLAG__ffile_prefix_map_C__Users_Felipe_CLionProjects_Wiki_cmake_build_debug__deps_catch2_src__
+HAVE_FLAG__ffile_prefix_map_C__Users_Felipe_CLionProjects_Wiki_cmake_build_debug__deps_catch2_src__:INTERNAL=1
+//ADVANCED property for variable: MAKECOMMAND
+MAKECOMMAND-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MEMORYCHECK_COMMAND
+MEMORYCHECK_COMMAND-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MEMORYCHECK_SUPPRESSIONS_FILE
+MEMORYCHECK_SUPPRESSIONS_FILE-ADVANCED:INTERNAL=1
 NLOHMANN_JSON_CONFIG_INSTALL_DIR:INTERNAL=share/cmake/nlohmann_json
+//ADVANCED property for variable: SITE
+SITE-ADVANCED:INTERNAL=1
+//Catch2 full path to CatchAddTests.cmake helper file
+_CATCH_DISCOVER_TESTS_SCRIPT:INTERNAL=C:/Users/Felipe/CLionProjects/Wiki/cmake-build-debug/_deps/catch2-src/extras/CatchAddTests.cmake
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
