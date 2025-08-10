@@ -28,6 +28,7 @@ bool jsonParser::hasInvalidName(const string &itemName) {
 }
 
 void jsonParser::setValidName( string * itemName) {
+    cerr<<"The name "<<*itemName<<" is invalid, please add it's type to get a valid name"<<endl;
     if (*itemName==POROSNAXS) {
         *itemName = POROSNAXSV;
     } else if (*itemName==WANDERERBLESSING) {
@@ -69,6 +70,10 @@ void jsonParser::parseCards(nlohmann::json j, vector<Card>* cardsP) {
         }
         if (cardJ.contains("item2")) {
             item2Name=cardJ.at("item2").get<string>();
+            if (hasInvalidName(item2Name)){
+                setValidName(&item2Name);
+            }
+
             item2Level=cardJ.at("item2Level").get<int>();
         }
         cardsP->emplace_back(cardname,cost,item1Name,item1Level,item2Name,item2Level);
