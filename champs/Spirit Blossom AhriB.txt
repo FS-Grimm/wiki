@@ -7,42 +7,42 @@
 |[[File:PoC Common Relic icon.png|25px|link=]] at level 25<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 30
 |-
 |{{LoR|Orb of Deception}} (x2)
-|{{PoC|item|NAME}} 
+| 
 |
 |
 |-
 |{{LoR|Spirit Rush}} (x2)
-|{{PoC|item|NAME}} 
+| 
 |
 |
 |-
 |{{LoR|Essence Thief}} (x2)
-|{{PoC|item|NAME}} 
+| 
 |
 |
 |-
 |{{LoR|Serene Spirit}} (x2)
-|{{PoC|item|NAME}} 
+| 
 |
 |
 |-
 |{{LoR|Final Blessing}} (x2)
-|{{PoC|item|NAME}} 
+| 
 |
 |
 |-
 |{{LoR|Sparring Student}} (x2)
-|{{PoC|item|NAME}} 
+| 
 |
 |
 |-
 |{{LoR|Prancing Sea Spirits}} (x2)
-|{{PoC|item|NAME}} 
+| 
 |
 |
 |-
 |{{LoR|Petals of Fate}} (x2)
-|{{PoC|item|NAME}} 
+| 
 |
 |
 |}

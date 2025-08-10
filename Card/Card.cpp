@@ -90,10 +90,14 @@ Card::Card(const string &name,int cost, const std::string &item1, int item1Level
     int item2Level) {
     this->name=name;
     this->cost=cost;
-    this->item1=item1;
-    this->item1Level=item1Level;
-    this->item2=item2;
-    this->item2Level=item2Level;
+    if (item1Level>UEN && item1!="NAME" && item1!="") {
+        this->item1=item1;
+        this->item1Level=item1Level;
+        if (item2Level>UEN && item2!="NAME" && item2!="") {
+            this->item2=item2;
+            this->item2Level=item2Level;
+        }
+    }
 }
 
 void Card::swapItems() {
