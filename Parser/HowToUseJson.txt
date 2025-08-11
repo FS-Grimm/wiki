@@ -1,0 +1,8 @@
+Copy a space for a champ from emptyJson
+If the Json of the patch doesn't exist, creat it
+Replace the name slots for cards and champs
+
+The following lines are optional and have a default value:
+Item1/2: Empty
+Item1/2Level: 0
+new: False

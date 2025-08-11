@@ -24,13 +24,13 @@ BottomDeck::BottomDeck() {
 
 }
 
-BottomDeck::BottomDeck(const string& champ,const vector<Card> &cardsV) {
+BottomDeck::BottomDeck( ChampCard* champ,const vector<Card> &cardsV) {
     this->champ=champ;
     cards=cardsV;
 }
 
 const string BottomDeck::getChampFile() const {
-        return "../champs/v"+ patchVersion+ "/"+ champ +  "B.txt";
+        return "../champs/v"+ patchVersion+ "/"+ getChamp() +  "B.txt";
 }
 
 

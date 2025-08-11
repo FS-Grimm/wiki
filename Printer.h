@@ -17,7 +17,7 @@ class Printer {
     FILE* patchFile;
 
 
-    void printPatch(const string &champ, const vector<Card> &cards);
+    void printPatch(const ChampCard &champ, const vector<Card> &cards);
 
 public:
     Printer(TopTableManager tManager, BottomTableManager bManager, JsonParser jParser, string patchVersion);

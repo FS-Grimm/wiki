@@ -1,35 +1,41 @@
 {
   "1": {
     "name": "Spirit Blossom Ahri",
+    "new" : "true",
     "1": {
       "name": "Orb of Deception",
       "cost": 2,
       "item1": "NAME",
-      "item1Level": 0
+      "item1Level": 0,
+      "new" : "true"
     },
     "2": {
       "name": "Spirit Rush",
       "cost": 3,
       "item1": "NAME",
-      "item1Level": 0
+      "item1Level": 0,
+      "new" : "true"
     },
     "3": {
       "name": "Essence Thief",
       "cost": 2,
       "item1": "NAME",
-      "item1Level": 0
+      "item1Level": 0,
+      "new" : "true"
     },
     "4": {
       "name": "Serene Spirit",
       "cost": 3,
       "item1": "NAME",
-      "item1Level": 0
+      "item1Level": 0,
+      "new" : "true"
     },
     "5": {
       "name": "Final Blessing",
       "cost": 5,
       "item1": "NAME",
-      "item1Level": 0
+      "item1Level": 0,
+      "new" : "true"
     },
     "6": {
       "name": "Sparring Student",
@@ -47,16 +53,19 @@
       "name": "Petals of Fate",
       "cost": 1,
       "item1": "NAME",
-      "item1Level": 0
+      "item1Level": 0,
+      "new" : "true"
     },
     "E1": {
       "name": "Fox-Fire",
       "item1": "NAME",
-      "item1Level": 0
+      "item1Level": 0,
+      "new" : "true"
     }
   },
   "2": {
     "name": "Spirit Blossom Evelynn",
+    "new" : "true",
     "1": {
       "name": "Mark of the Isles",
       "cost": 1,
@@ -71,7 +80,8 @@
       "item1": "NAME",
       "item1Level": 0,
       "item2": "NAME",
-      "item2Level": 0
+      "item2Level": 0,
+      "new" : "true"
     },
     "3": {
       "name": "Fated Suplicant",
@@ -79,7 +89,8 @@
       "item1": "NAME",
       "item1Level": 0,
       "item2": "NAME",
-      "item2Level": 0
+      "item2Level": 0,
+      "new" : "true"
     },
     "4": {
       "name": "Spirit's Embrace",
@@ -87,7 +98,8 @@
       "item1": "NAME",
       "item1Level": 0,
       "item2": "NAME",
-      "item2Level": 0
+      "item2Level": 0,
+      "new" : "true"
     },
     "5": {
       "name": "Withering Wail",
@@ -103,7 +115,8 @@
       "item1": "NAME",
       "item1Level": 0,
       "item2": "NAME",
-      "item2Level": 0
+      "item2Level": 0,
+      "new" : "true"
     },
     "7": {
       "name": "Bewitch",
@@ -111,7 +124,8 @@
       "item1": "NAME",
       "item1Level": 0,
       "item2": "NAME",
-      "item2Level": 0
+      "item2Level": 0,
+      "new" : "true"
     },
     "8": {
       "name": "Shadow Swindler",
@@ -119,7 +133,8 @@
       "item1": "NAME",
       "item1Level": 0,
       "item2": "NAME",
-      "item2Level": 0
+      "item2Level": 0,
+      "new" : "true"
     },
     "E1": {
       "name": "Beckoning Gaze",
@@ -127,7 +142,8 @@
       "item1": "NAME",
       "item1Level": 0,
       "item2": "NAME",
-      "item2Level": 0
+      "item2Level": 0,
+      "new" : "true"
     }
   }
 }

@@ -57,7 +57,7 @@ void BottomTableManager::addItem2Line(FILE *file, Card &card) {
 }
 
 void BottomTableManager::writeFile(const BottomDeck &deck) {
-    string champ=deck.getLoRChamp();
+    string champ=deck.getLoRChampName();
     string champFile=deck.getChampFile();
     FILE * f= fopen(champFile.c_str(), "w");
     if (!f) {

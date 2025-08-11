@@ -11,14 +11,17 @@
 class BottomDeck:public Deck{
     vector<Card> cards;
 protected:
+
     void makeDeck(const string &champ, const char **cardsChamp, const char **itemsChamp);
 
 public:
     explicit BottomDeck(int deckNumber);
 
-    BottomDeck(const string & champ, const vector<Card> & cards);
+    BottomDeck(const ChampCard & champ, const vector<Card> & cards);
 
     BottomDeck();
+
+    BottomDeck(ChampCard *champ, const vector<Card> &cardsV);
 
     [[nodiscard]] const string getChampFile() const override;
     size_t getSize() const override;

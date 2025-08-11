@@ -34,7 +34,7 @@ class Card {
     int item1Level=0;
     string item2;
     int item2Level=0;
-
+    bool cardIsNew;
     int cost=0;
     void setItem2Text(string & item2Text);
     void setItemText(string & itemText);
@@ -45,14 +45,14 @@ class Card {
     [[nodiscard]] string getItemName(bool first) const;
 
    public:
-    Card(const string &  name,int cost, const std::string & item1, int item1Level, const std::string & item2Name, int item2Level);
+    Card(const string &  name,int cost, const std::string & item1, int item1Level, const std::string & item2Name, int item2Level, bool isNew);
     Card(const string & cardName, string itemText);
     Card();
 
 
 
     void swapItems();
-
+    bool isNew() const;
     [[nodiscard]] bool has2Items() const;
 
     [[nodiscard]] string getLoRCard() const;

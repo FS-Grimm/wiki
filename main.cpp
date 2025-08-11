@@ -7,7 +7,7 @@
 #include "Parser/jsonParser.h"
 #include "TManagers/BottomTableManager.h"
 #include "TManagers/TopTableManager.h"
-#define patchVersionConst "6.8"
+#define patchVersionConst "6.7"
 
 int main() {
    Deck::patchVersion=patchVersionConst;

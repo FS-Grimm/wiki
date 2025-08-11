@@ -105,12 +105,19 @@ build CMakeFiles/Wiki.dir/Parser/JsonParser.cpp.obj: CXX_COMPILER__Wiki_unscanne
   OBJECT_DIR = CMakeFiles\Wiki.dir
   OBJECT_FILE_DIR = CMakeFiles\Wiki.dir\Parser
 
-build CMakeFiles/Wiki.dir/printer.cpp.obj: CXX_COMPILER__Wiki_unscanned_Debug C$:/Users/Felipe/CLionProjects/Wiki/printer.cpp || cmake_object_order_depends_target_Wiki
-  DEP_FILE = CMakeFiles\Wiki.dir\printer.cpp.obj.d
+build CMakeFiles/Wiki.dir/Printer.cpp.obj: CXX_COMPILER__Wiki_unscanned_Debug C$:/Users/Felipe/CLionProjects/Wiki/Printer.cpp || cmake_object_order_depends_target_Wiki
+  DEP_FILE = CMakeFiles\Wiki.dir\Printer.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/Felipe/CLionProjects/Wiki/cmake-build-debug/_deps/nlohmann_json-src/include
   OBJECT_DIR = CMakeFiles\Wiki.dir
   OBJECT_FILE_DIR = CMakeFiles\Wiki.dir
+
+build CMakeFiles/Wiki.dir/Card/ChampCard.cpp.obj: CXX_COMPILER__Wiki_unscanned_Debug C$:/Users/Felipe/CLionProjects/Wiki/Card/ChampCard.cpp || cmake_object_order_depends_target_Wiki
+  DEP_FILE = CMakeFiles\Wiki.dir\Card\ChampCard.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Felipe/CLionProjects/Wiki/cmake-build-debug/_deps/nlohmann_json-src/include
+  OBJECT_DIR = CMakeFiles\Wiki.dir
+  OBJECT_FILE_DIR = CMakeFiles\Wiki.dir\Card
 
 
 # =============================================================================
@@ -120,7 +127,7 @@ build CMakeFiles/Wiki.dir/printer.cpp.obj: CXX_COMPILER__Wiki_unscanned_Debug C$
 #############################################
 # Link the executable Wiki.exe
 
-build Wiki.exe: CXX_EXECUTABLE_LINKER__Wiki_Debug CMakeFiles/Wiki.dir/main.cpp.obj CMakeFiles/Wiki.dir/TManagers/TopTableManager.cpp.obj CMakeFiles/Wiki.dir/Card/Card.cpp.obj CMakeFiles/Wiki.dir/TManagers/BottomTableManager.cpp.obj CMakeFiles/Wiki.dir/Deck/Deck.cpp.obj CMakeFiles/Wiki.dir/Deck/TopDeck.cpp.obj CMakeFiles/Wiki.dir/Deck/BottomDeck.cpp.obj CMakeFiles/Wiki.dir/Parser/JsonParser.cpp.obj CMakeFiles/Wiki.dir/printer.cpp.obj
+build Wiki.exe: CXX_EXECUTABLE_LINKER__Wiki_Debug CMakeFiles/Wiki.dir/main.cpp.obj CMakeFiles/Wiki.dir/TManagers/TopTableManager.cpp.obj CMakeFiles/Wiki.dir/Card/Card.cpp.obj CMakeFiles/Wiki.dir/TManagers/BottomTableManager.cpp.obj CMakeFiles/Wiki.dir/Deck/Deck.cpp.obj CMakeFiles/Wiki.dir/Deck/TopDeck.cpp.obj CMakeFiles/Wiki.dir/Deck/BottomDeck.cpp.obj CMakeFiles/Wiki.dir/Parser/JsonParser.cpp.obj CMakeFiles/Wiki.dir/Printer.cpp.obj CMakeFiles/Wiki.dir/Card/ChampCard.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Wiki.dir

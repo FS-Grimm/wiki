@@ -87,7 +87,7 @@ Card::Card(const string &cardName, string itemText) {
 Card::Card() =default;
 
 Card::Card(const string &name,int cost, const std::string &item1, int item1Level, const std::string &item2,
-    int item2Level) {
+    int item2Level, bool isNew) {
     this->name=name;
     this->cost=cost;
     if (item1Level>UEN && item1!="NAME" && item1!="") {
@@ -98,11 +98,16 @@ Card::Card(const string &name,int cost, const std::string &item1, int item1Level
             this->item2Level=item2Level;
         }
     }
+    this->cardIsNew=isNew;
 }
 
 void Card::swapItems() {
     swap(item1Level,item2Level);
     swap(item1,item2);
+}
+
+bool Card::isNew() const {
+    return cardIsNew;
 }
 
 bool Card::has2Items() const {
