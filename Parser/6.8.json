@@ -1,6 +1,7 @@
 {
   "1": {
     "name": "Spirit Blossom Ahri",
+    "relic": "Attendant Spirits",
     "type": "new",
     "1": {
       "name": "Orb of Deception",
@@ -66,6 +67,7 @@
   "2": {
     "name": "Spirit Blossom Evelynn",
     "type": "new",
+    "relic" : "Siphoned Sorrow",
     "1": {
       "name": "Mark of the Isles",
       "cost": 1,
@@ -80,8 +82,7 @@
       "item1": "NAME",
       "item1Level": 0,
       "item2": "NAME",
-      "item2Level": 0,
-      "new": "true"
+      "item2Level": 0
     },
     "3": {
       "name": "Fated Suplicant",

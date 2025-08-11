@@ -8,7 +8,6 @@
 * {{LoR|Petals of Fate}}
 
 * {{LoR|Spirit Blossom Evelynn}}
-* {{LoR|Stirred Spirits}}
 * {{LoR|Fated Suplicant}}
 * {{LoR|Spirit's Embrace}}
 * {{LoR|Occult Oportunist}}
@@ -46,13 +45,13 @@
 ** {{PoC|power|}}
 === New Relics ===
 * Bundle-Exclusive
-** {{PoC|relic|}}
-** {{PoC|relic|}}
+** {{PoC|relic|Attendant Spirits}}
+** {{PoC|relic|Siphoned Sorrow}}
 ** {{PoC|relic|Mischiefmaker's Flute}}
 
 
  == Shop ==
 === Bundles ===
-*New Champion Bundles** {{PoC|Spirit Blossom Ahri}} with {{PoC|relic|}}
-** {{PoC|Spirit Blossom Evelynn}} with {{PoC|relic|}}
+*New Champion Bundles** {{PoC|Spirit Blossom Ahri}} with {{PoC|relic|Attendant Spirits}}
+** {{PoC|Spirit Blossom Evelynn}} with {{PoC|relic|Siphoned Sorrow}}
 ** {{PoC|Spirit Blossom Teemo}} with {{PoC|relic|Mischiefmaker's Flute}}
