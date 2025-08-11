@@ -1,6 +1,7 @@
 {
   "1": {
     "name": "Mel",
+    "new" : "true",
     "1": {
       "name": "Lest",
       "cost": 1,
@@ -25,7 +26,8 @@
       "name": "Elora",
       "cost": 3,
       "item1": "Skirmisher's Sabre",
-      "item1Level": 12
+      "item1Level": 12,
+      "new" : "true"
     },
     "5": {
       "name": "Howling Gale",
@@ -37,7 +39,8 @@
       "name": "Solar Snare",
       "cost": 3,
       "item1": "Poro Snax Spells",
-      "item1Level": 15
+      "item1Level": 15,
+      "new" : "true"
     },
     "7": {
       "name": "Funsmith",
@@ -49,7 +52,8 @@
       "name": "Rebuttal",
       "cost": 5,
       "item1": "Mana Potion",
-      "item1Level": 3
+      "item1Level": 3,
+      "new" : "true"
     }
   },
   "2": {

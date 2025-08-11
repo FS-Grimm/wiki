@@ -9,14 +9,14 @@
 #include <nlohmann/json.hpp>
 #include <fstream>
 
-#include "../Card/Card.h"
+#include "../Card/ChampCard.h"
 
 
 class Card;
-extern std::string champ1;
-extern std::string champ2;
-extern std::string champ3;
-extern std::string champ4;
+extern ChampCard champ1;
+extern ChampCard champ2;
+extern ChampCard champ3;
+extern ChampCard champ4;
 extern std::vector<Card> cardsGlobal1;
 extern std::vector<Card> cardsGlobal2;
 extern std::vector<Card> cardsGlobal3;
@@ -25,21 +25,32 @@ extern std::vector<Card> cardsGlobal4;
 
 class JsonParser {
     string patchVersion;
-  public:
-    static ifstream getVersionFile_impl(const string &filePath);
-
-    ifstream getVersionFile();
+    bool champIsNew;
 
     static bool hasInvalidName(const string & itemName);
 
     static void setValidName(string * itemName);
+public:
+    static ifstream getVersionFile_impl(const string &filePath);
+
+    ifstream getVersionFile();
 
 
-    static void parseCards(nlohmann::json j, vector<Card> * cardsP);
+
+    static void checkInvalidName(string *itemName);
+
+    static void parseItem(nlohmann::json::const_reference json, string ref, string *itemName, int *itemLevel);
+
+    static void parseName(nlohmann::json::const_reference json, string * cardname);
+
+    void parseCards(nlohmann::json j, vector<Card> * cardsP);
+
+
+    void parseNew(nlohmann::json::const_reference json,bool *isNew);
 
     void parse();
 
-    JsonParser() = default;
+    JsonParser();
 
     JsonParser(string patchVersion);
 };

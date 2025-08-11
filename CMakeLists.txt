@@ -29,6 +29,8 @@ add_executable(Wiki
         Parser/jsonParser.cpp
         printer.cpp
         printer.h
+        Card/ChampCard.cpp
+        Card/ChampCard.h
 )
 target_link_libraries(Wiki PRIVATE nlohmann_json::nlohmann_json)
 

@@ -4,7 +4,7 @@
 
 #ifndef DECK_H
 #define DECK_H
-#include "../Card/Card.h"
+#include "../Card/ChampCard.h"
 
 using namespace std;
 
@@ -13,7 +13,9 @@ using namespace std;
 
 protected:
 
-  string champ;
+  ChampCard * champ;
+
+  void setChamp(const string & champ);
 
   string getChamp(int deckNumber);
 
@@ -23,23 +25,21 @@ protected:
 
 public:
     static string patchVersion;
-    void setChamp(const string & champ);
+    void setChamp(ChampCard *champ);
 
   virtual ~Deck() ;
 
   string getPatchDirectory();
-  [[nodiscard]] virtual const string getChampFile() const;
+  [[nodiscard]] const virtual string getChampFile() const;
   virtual size_t getSize() const;
   virtual void add(Card card);
   virtual Card getCard(size_t pos) const;
-  string getChamp() const;
+  [[nodiscard]] string getChamp() const;
 
-  static string getPoCChamp(string champ);
 
-  string getPoCChamp() const;
+  [[nodiscard]] string getPoCChampName() const;
 
-  string getLoRChamp() const;
-  static string getLoRChamp(string champ);
+  [[nodiscard]] string getLoRChampName() const;
  };
 
 

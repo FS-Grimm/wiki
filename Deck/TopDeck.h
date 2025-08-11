@@ -13,7 +13,8 @@ class TopDeck:public Deck{
 public:
     explicit TopDeck(int deckNumber);
 
-    explicit TopDeck(string champ,const vector<Card> & cardsV);
+    TopDeck(ChampCard *champ, const vector<Card> &cardsV);
+
 
     [[nodiscard]] const string getChampFile() const override;
     size_t getSize() const override;
