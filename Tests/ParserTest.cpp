@@ -11,16 +11,16 @@
 using namespace std;
 TEST_CASE("Unexistant Version File Throws Error")
     {
-        jsonParser parser;
+        JsonParser parser;
         REQUIRE_THROWS(parser.getVersionFile_impl("-1"));
     }
 TEST_CASE("Existant Version File Doesn't throw Error")
 {
-    jsonParser parser;
+    JsonParser parser;
     REQUIRE_NOTHROW(parser.getVersionFile_impl("../Parser/6.8.json"));
 }
-TEST_CASE("jsonParser parses valid JSON", "[jsonParser]") {
-    jsonParser parser;
+TEST_CASE("JsonParser parses valid JSON", "[JsonParser]") {
+    JsonParser parser;
     nlohmann::json result = R"({"name": "Teemo"})";
     vector<Card>* cardsP;
 
@@ -30,8 +30,8 @@ TEST_CASE("jsonParser parses valid JSON", "[jsonParser]") {
     REQUIRE(result["role"] == "Top");
 }
 
-TEST_CASE("jsonParser throws on invalid JSON", "[jsonParser]") {
-    jsonParser parser;
+TEST_CASE("JsonParser throws on invalid JSON", "[JsonParser]") {
+    JsonParser parser;
     std::string invalidJson = R"({"name": "Teemo", "role": Top})";
 
 }

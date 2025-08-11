@@ -117,7 +117,7 @@ string Card::getItemName(bool first) const {
     return first ? item1 : item2;
 }
 
-string Card::getLoRCard() {
+string Card::getLoRCard() const {
 
     return "{{LoR|" + name + "}}";
 }

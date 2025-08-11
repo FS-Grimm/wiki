@@ -1,9 +1,5 @@
 "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\Felipe\CLionProjects\Wiki -B C:\Users\Felipe\CLionProjects\Wiki\cmake-build-debug
 -- Using the multi-header code from C:/Users/Felipe/CLionProjects/Wiki/cmake-build-debug/_deps/nlohmann_json-src/include/
-Cloning into 'catch2-src'...
-HEAD is now at fa43b774 v3.7.1
--- Performing Test HAVE_FLAG__ffile_prefix_map_C__Users_Felipe_CLionProjects_Wiki_cmake_build_debug__deps_catch2_src__
--- Performing Test HAVE_FLAG__ffile_prefix_map_C__Users_Felipe_CLionProjects_Wiki_cmake_build_debug__deps_catch2_src__ - Success
--- Configuring done (6.6s)
+-- Configuring done (1.2s)
 -- Generating done (0.1s)
 -- Build files have been written to: C:/Users/Felipe/CLionProjects/Wiki/cmake-build-debug

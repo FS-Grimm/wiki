@@ -12,11 +12,11 @@
 
 class BottomTableManager {
 
+private:
     static void addLineStart(FILE *f);
     static void addStart(FILE *f);
     static void addCardSeparator(FILE *f);
-public:
-
+    BottomDeck deck;
     static void addChampLine(FILE * file,  string & champ);
 
 
@@ -29,9 +29,14 @@ public:
 
     static void writeFile(const BottomDeck & deck);
 
+
+public:
+    BottomTableManager();
+    void makeTable(BottomDeck deck);
+
     static void makeTable(int deckNumber);
 
-    static void makeTable(const string & champ, const vector<Card> & cardsV);
+
 };
 
 

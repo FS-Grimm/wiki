@@ -21,7 +21,8 @@ TopDeck::TopDeck(int deckNumber) {
     }
 }
 
-TopDeck::TopDeck(const vector<Card> &cardsV) {
+TopDeck::TopDeck(string champ,const vector<Card> &cardsV) {
+    this->champ=champ;
     for (size_t i = 0; i < MAXCARDS; i++) {
         Card card=cardsV[i];
         TopDeck::add(card);
@@ -40,7 +41,7 @@ void TopDeck::add(Card card) {
 TopDeck::~TopDeck() = default;
 
 const string TopDeck::getChampFile() const {
-    return "../champs/v" patchVersion "/" +champ +  "T.txt";
+    return "../champs/v"+ patchVersion +"/" +champ +  "T.txt";
 }
 
 size_t TopDeck::getSize() const {

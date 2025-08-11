@@ -55,7 +55,7 @@ class Card {
 
     [[nodiscard]] bool has2Items() const;
 
-    [[nodiscard]] string getLoRCard();
+    [[nodiscard]] string getLoRCard() const;
     [[nodiscard]] string getPoCItem(bool first) const;
 
     [[nodiscard]] string getTopTextFromlevel() const;

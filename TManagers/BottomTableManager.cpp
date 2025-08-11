@@ -81,15 +81,17 @@ void BottomTableManager::writeFile(const BottomDeck &deck) {
     fclose(f);
 }
 
+BottomTableManager::BottomTableManager() {
+    deck=BottomDeck();
+};
+
 void BottomTableManager::makeTable(int deckNumber) {
     auto deck= BottomDeck(deckNumber);
     string champ= deck.getChamp();
     writeFile(deck);
 }
 
-void BottomTableManager::makeTable(const string &champ, const vector<Card> &cardsV) {
-    auto deck= BottomDeck(cardsV);
-    deck.setChamp(champ);
+void BottomTableManager::makeTable(BottomDeck deck) {
+    this->deck=deck;
     writeFile(deck);
-
 }

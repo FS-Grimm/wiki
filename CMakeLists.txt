@@ -27,6 +27,8 @@ add_executable(Wiki
         Deck/TopDeck.cpp
         Deck/BottomDeck.cpp
         Parser/jsonParser.cpp
+        printer.cpp
+        printer.h
 )
 target_link_libraries(Wiki PRIVATE nlohmann_json::nlohmann_json)
 

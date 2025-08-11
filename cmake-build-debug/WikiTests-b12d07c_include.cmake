@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Felipe/CLionProjects/Wiki/cmake-build-debug/WikiTests-b12d07c_tests.cmake")
+  include("C:/Users/Felipe/CLionProjects/Wiki/cmake-build-debug/WikiTests-b12d07c_tests.cmake")
+else()
+  add_test(WikiTests_NOT_BUILT-b12d07c WikiTests_NOT_BUILT-b12d07c)
+endif()

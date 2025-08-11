@@ -16,7 +16,9 @@ protected:
 public:
     explicit BottomDeck(int deckNumber);
 
-    explicit BottomDeck(const vector<Card> & cardsV);
+    BottomDeck(const string & champ, const vector<Card> & cards);
+
+    BottomDeck();
 
     [[nodiscard]] const string getChampFile() const override;
     size_t getSize() const override;

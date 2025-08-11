@@ -5,7 +5,6 @@
 #ifndef DECK_H
 #define DECK_H
 #include "../Card/Card.h"
-#include "../Parser/jsonParser.h"
 
 using namespace std;
 
@@ -23,7 +22,8 @@ protected:
   const char **getItems(int deckNumber);
 
 public:
-   void setChamp(const string & champ);
+    static string patchVersion;
+    void setChamp(const string & champ);
 
   virtual ~Deck() ;
 
@@ -34,9 +34,12 @@ public:
   virtual Card getCard(size_t pos) const;
   string getChamp() const;
 
+  static string getPoCChamp(string champ);
+
   string getPoCChamp() const;
 
   string getLoRChamp() const;
+  static string getLoRChamp(string champ);
  };
 
 

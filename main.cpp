@@ -3,33 +3,18 @@
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
+#include "Printer.h"
+#include "Parser/jsonParser.h"
 #include "TManagers/BottomTableManager.h"
 #include "TManagers/TopTableManager.h"
-
-void createMissingDirectory() {
-    string champFile="../champs/v"  patchVersion "/"+ champ1 + "B.txt";
-    FILE* f=fopen(champFile.c_str(),"w");
-    if (!f)
-        std::filesystem::create_directories("../champs/v"  patchVersion);
-
-    fclose(f);
-}
-
+#define patchVersionConst "6.8"
 
 int main() {
+   Deck::patchVersion=patchVersionConst;
 
-
-    jsonParser::parseDefinedVersion();
-    createMissingDirectory();
-
-    vector champs = { &champ1, &champ2, &champ3, &champ4 };
-    vector  cardsGlobal ={ &cardsGlobal1,& cardsGlobal2,& cardsGlobal3, &cardsGlobal4};
-    size_t i=0;
-    while (!champs[i]->empty() && i<champs.size()) {
-        BottomTableManager::makeTable(*champs[i],*cardsGlobal[i]);
-        TopTableManager::makeTable(*champs[i],*cardsGlobal[i]);
-        i++;
-    }
+    auto printer= Printer(TopTableManager(), BottomTableManager(), JsonParser(patchVersionConst),patchVersionConst);
+    printer.parseVersionAndSetDirectory();
+    printer.printTables();
 
     return 0;
 }

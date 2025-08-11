@@ -46,9 +46,7 @@ void TopTableManager::makeTable(int deckNumber) {
     writeFile(deck);
 }
 
-void TopTableManager::makeTable(const string &champ, const vector<Card> &cardsV) {
-    auto deck= TopDeck(cardsV);
-    deck.setChamp(champ);
+void TopTableManager::makeTable(const TopDeck &deck) {
     writeFile(deck);
 }
 

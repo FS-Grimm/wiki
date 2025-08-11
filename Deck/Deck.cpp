@@ -3,6 +3,7 @@
 //
  #include "Deck.h"
 
+string Deck::patchVersion = "";
 
 void Deck::setChamp(const string &champ) {
 	this->champ=champ;
@@ -56,7 +57,7 @@ const char **Deck::getItems(int deckNumber) {
 Deck::~Deck() = default;
 
 string Deck::getPatchDirectory() {
-	return "../champs/v" patchVersion;
+	return "../champs/v"+ patchVersion;
 }
 
 const string Deck::getChampFile() const {
@@ -78,11 +79,21 @@ Card Deck::getCard(size_t pos) const {
 string Deck::getChamp() const {
 	return champ;
 }
-string Deck::getPoCChamp() const {
+string Deck::getPoCChamp(string champ)  {
 	return "{{PoC|" + champ + "}}";
 }
-string Deck::getLoRChamp() const {
+
+string Deck::getLoRChamp(string champ) {
 	return "{{LoR|" + champ + "}}";
+}
+
+string Deck::getPoCChamp() const {
+	return getPoCChamp(champ);
+}
+
+
+string Deck::getLoRChamp() const {
+	return getLoRChamp(champ);
 }
 
 
