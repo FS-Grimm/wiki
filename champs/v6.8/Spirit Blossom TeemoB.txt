@@ -1,4 +1,5 @@
- {| class="wikitable"!Card
+ {| class="wikitable" 
+!Card
 ! colspan="3" |Item 
 |-
 |{{LoR|Spirit Blossom Teemo}} (x2)
@@ -26,7 +27,7 @@
 |
 |
 |-
-|{{LoR|Roo, Playfull Prankster}} (x2)
+|{{LoR|Roo, Playful Prankster}} (x2)
 | 
 |
 |

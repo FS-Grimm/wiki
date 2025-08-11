@@ -21,14 +21,21 @@ class Printer {
     void openPatchFile();
 
     void printNewCards(size_t globalIdx);
-    void printNewChamp(size_t globalIdx);
+    void printNewChamp();
+
+    void printConsts();
+
+    void printChamps();
+
+    void printRelic();
+
+    void printShop();
+
+
 
 public:
     Printer(TopTableManager tManager, BottomTableManager bManager, JsonParser jParser, string patchVersion);
     void parseVersionAndSetDirectory();
-
-
-
 
     void printPatch();
 

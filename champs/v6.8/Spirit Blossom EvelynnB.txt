@@ -1,4 +1,5 @@
- {| class="wikitable"!Card
+ {| class="wikitable" 
+!Card
 ! colspan="3" |Item 
 |-
 |{{LoR|Spirit Blossom Evelynn}} (x2)

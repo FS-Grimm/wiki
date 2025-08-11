@@ -19,7 +19,7 @@
 * {{LoR|Grandma Enoki}}
 * {{LoR|Yoink!}}
 * {{LoR|Shadow Swindler}}
-* {{LoR|Roo, Playfull Prankster}}
+* {{LoR|Roo, Playful Prankster}}
 * {{LoR|Shroomsplosion!}}
 
 === New Champions ===
@@ -44,24 +44,15 @@
 ** {{PoC|power|}}
 ** {{PoC|power|}}
 ** {{PoC|power|}}
-* {{PoC|Spirit Blossom Ahri}}
-** {{PoC|power|}}
-** {{PoC|power|}}
-** {{PoC|power|}}
-** {{PoC|power|}}
-** {{PoC|power|}}
-** {{PoC|power|}}
-* {{PoC|Spirit Blossom Evelynn}}
-** {{PoC|power|}}
-** {{PoC|power|}}
-** {{PoC|power|}}
-** {{PoC|power|}}
-** {{PoC|power|}}
-** {{PoC|power|}}
-* {{PoC|Spirit Blossom Teemo}}
-** {{PoC|power|}}
-** {{PoC|power|}}
-** {{PoC|power|}}
-** {{PoC|power|}}
-** {{PoC|power|}}
-** {{PoC|power|}}
+=== New Relics ===
+* Bundle-Exclusive
+** {{PoC|relic|}}
+** {{PoC|relic|}}
+** {{PoC|relic|Mischiefmaker's Flute}}
+
+
+ == Shop ==
+=== Bundles ===
+*New Champion Bundles** {{PoC|Spirit Blossom Ahri}} with {{PoC|relic|}}
+** {{PoC|Spirit Blossom Evelynn}} with {{PoC|relic|}}
+** {{PoC|Spirit Blossom Teemo}} with {{PoC|relic|Mischiefmaker's Flute}}

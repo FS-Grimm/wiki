@@ -24,8 +24,8 @@ public:
     [[nodiscard]] string getName() const {
         return name;
     }
-    [[nodiscard]] string getRelic() const {
-        return paidRelic;
+    [[nodiscard]] string getPoCRelic() const {
+        return "{{PoC|relic|"+ paidRelic + "}}";
     }
 
     [[nodiscard]] bool isNewToLoR() const{return type==NEWTOLOR;}
