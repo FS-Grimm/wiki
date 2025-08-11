@@ -10,7 +10,7 @@ void Deck::setChamp( ChampCard *champ) {
 }
 
 void Deck::setChamp(const string &champ) {
-	this->champ=new ChampCard(champ,false);
+	this->champ=new ChampCard(champ,CONSTELLATION,"");
 }
 
 string Deck::getChamp(int deckNumber) {

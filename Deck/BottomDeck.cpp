@@ -20,6 +20,7 @@ BottomDeck::BottomDeck(int deckNumber) {
     sortByCost();
 }
 
+
 BottomDeck::BottomDeck() {
 
 }
@@ -27,6 +28,9 @@ BottomDeck::BottomDeck() {
 BottomDeck::BottomDeck( ChampCard* champ,const vector<Card> &cardsV) {
     this->champ=champ;
     cards=cardsV;
+    sortAlphabetically();
+    sortByCost();
+
 }
 
 const string BottomDeck::getChampFile() const {

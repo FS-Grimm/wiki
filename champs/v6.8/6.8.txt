@@ -1,3 +1,4 @@
+=== New PoC Exclusive Cards ===
 * {{LoR|Spirit Blossom Ahri}}
 * {{LoR|Orb of Deception}}
 * {{LoR|Spirit Rush}}
@@ -14,3 +15,53 @@
 * {{LoR|Bewitch}}
 * {{LoR|Shadow Swindler}}
 
+* {{LoR|Spirit Blossom Teemo}}
+* {{LoR|Grandma Enoki}}
+* {{LoR|Yoink!}}
+* {{LoR|Shadow Swindler}}
+* {{LoR|Roo, Playfull Prankster}}
+* {{LoR|Shroomsplosion!}}
+
+=== New Champions ===
+* {{PoC|Spirit Blossom Ahri}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+* {{PoC|Spirit Blossom Evelynn}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+* {{PoC|Spirit Blossom Teemo}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+* {{PoC|Spirit Blossom Ahri}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+* {{PoC|Spirit Blossom Evelynn}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+* {{PoC|Spirit Blossom Teemo}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}

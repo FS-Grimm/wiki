@@ -16,6 +16,8 @@ vector<Card> cardsGlobal1;
 vector<Card> cardsGlobal2;
 vector<Card> cardsGlobal3;
 vector<Card> cardsGlobal4;
+vector<ChampCard*> champsGlobal = { &champ1, &champ2, &champ3, &champ4 };
+vector<vector<Card>*> cardsGlobal = {  &cardsGlobal1,&cardsGlobal2,&cardsGlobal3, &cardsGlobal4};
 
 ifstream JsonParser::getVersionFile_impl(const string &filePath) {
     ifstream file(filePath);
@@ -61,19 +63,43 @@ void JsonParser::parseItem(nlohmann::json::const_reference json, string ref,  st
     *itemLevel=json.at(ref + "Level").get<int>();
 }
 
-void JsonParser::parseName(nlohmann::json::const_reference json, string *cardname) {
-    *cardname= json.at("name").get<string>();
-}
 void JsonParser::parseNew(nlohmann::json::const_reference json, bool *isNew) {
     if (json.contains("new")) {
         string state=json.at("new").get<string>();
-        if (state=="true" || state=="True" || state=="TRUE") {
+        if (state=="new" || state=="true" || state=="yes") {
             *isNew=true;
             return;
         }
     }
     *isNew=false;
 
+}
+
+
+void JsonParser::parseType(nlohmann::json::const_reference json) {
+    if (json.contains("type")) {
+        string state=json.at("type").get<string>();
+        if (state=="new" || state==NEWTOLOR) {
+            champType=NEWTOLOR;
+            return;
+        }
+        if (state=="newChamp" || state==NEWCHAMP) {
+            champType=NEWCHAMP;
+            return;
+        }
+    }
+    champType=CONSTELLATION;    //Default=Constellation
+}
+
+void JsonParser::parseRef(const string ref, nlohmann::json::const_reference json, string *target) {
+    *target= json.at(ref.c_str()).get<string>();
+}
+
+void JsonParser::parseRelic(nlohmann::json::const_reference json, string *relic) {
+    parseRef("relic",json,relic);
+    if (*relic=="NAME") {
+        *relic="";
+    }
 }
 
 void JsonParser::parseCards(nlohmann::json j, vector<Card>* cardsP) {
@@ -93,7 +119,7 @@ void JsonParser::parseCards(nlohmann::json j, vector<Card>* cardsP) {
         item2Name="";
         item2Level=0;
         cardJ=j[s];
-        parseName(cardJ,&cardname);
+        parseRef("name",cardJ,&cardname);
         cost = cardJ.at("cost").get<int>();
         if (cardJ.contains("item1")) {
             parseItem(cardJ,"item1",&item1Name,&item1Level);
@@ -101,7 +127,7 @@ void JsonParser::parseCards(nlohmann::json j, vector<Card>* cardsP) {
         if (cardJ.contains("item2")) {
             parseItem(cardJ,"item2",&item2Name,&item2Level);
             }
-        if (champIsNew) {
+        if (champType==NEWTOLOR) {
             parseNew(cardJ,&isNew);
         }
         cardsP->emplace_back(cardname,cost,item1Name,item1Level,item2Name,item2Level,isNew);
@@ -117,26 +143,28 @@ void JsonParser::parse() {
     nlohmann::json json;
     f >> json;
     string  champName;
-    vector cards_p = {  &cardsGlobal1,&cardsGlobal2,&cardsGlobal3, &cardsGlobal4};
-    vector champs = { &champ1, &champ2, &champ3, &champ4 };
+    string  relic;
     size_t i=0;
     string s="1";
     nlohmann::json champJ;
-    while (json.contains(s) && i < champs.size()) {
-        champIsNew=false;
+    while (json.contains(s) && i < champsGlobal.size()) {
+        champType="";
+        relic="";
         champJ=json[s];
-        parseName(champJ,&champName);
-        parseNew(champJ,&champIsNew);
-        auto champ = ChampCard(champName,champIsNew);
-        *champs[i]=champ;
-        parseCards(champJ,cards_p[i]);
+        parseRef("name",champJ,&champName);
+        parseType(champJ);
+        if (champJ.contains("relic"))
+            parseRelic(champJ,&relic);
+        auto champ = ChampCard(champName,champType,relic);
+        *champsGlobal[i]=champ;
+        parseCards(champJ,cardsGlobal[i]);
         i++;
         s=to_string(i+1);
     }
 }
 
 JsonParser::JsonParser() {
-    champIsNew=false;
+    champType="";
     patchVersion="";
 }
 

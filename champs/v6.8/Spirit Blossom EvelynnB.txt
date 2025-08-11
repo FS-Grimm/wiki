@@ -11,12 +11,22 @@
 |
 |
 |-
-|{{LoR|Stirred Spirits}} (x2)
+|{{LoR|Shadow Swindler}} (x2)
 | 
 |
 |
 |-
 |{{LoR|Fated Suplicant}} (x2)
+| 
+|
+|
+|-
+|{{LoR|Stirred Spirits}} (x2)
+| 
+|
+|
+|-
+|{{LoR|Occult Oportunist}} (x2)
 | 
 |
 |
@@ -31,17 +41,7 @@
 |
 |
 |-
-|{{LoR|Occult Oportunist}} (x2)
-| 
-|
-|
-|-
 |{{LoR|Bewitch}} (x2)
-| 
-|
-|
-|-
-|{{LoR|Shadow Swindler}} (x2)
 | 
 |
 |

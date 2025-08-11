@@ -9,17 +9,27 @@
 
 #include <utility>
 
+const string NEWTOLOR="newLoR";
+const string CONSTELLATION="const";
+const string NEWCHAMP="newChamp";
+
+
 class ChampCard {
     string name;
-    bool isANewChamp;
+    string paidRelic;
+    string type;
 public:
     ChampCard()=default;
-    ChampCard(string name, bool isNew) : name(std::move(name)), isANewChamp(isNew) {}
+    ChampCard(string name, string type, string relic) : name(std::move(name)), type(std::move(type)) , paidRelic(relic){}
     [[nodiscard]] string getName() const {
         return name;
     }
+    [[nodiscard]] string getRelic() const {
+        return paidRelic;
+    }
 
-    [[nodiscard]] bool isNew() const{return isANewChamp;}
+    [[nodiscard]] bool isNewToLoR() const{return type==NEWTOLOR;}
+    [[nodiscard]] bool isNewToPoC() const{return type!=CONSTELLATION;}
 
     bool hasName() {
         return name!= "";

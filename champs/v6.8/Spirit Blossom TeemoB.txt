@@ -1,0 +1,48 @@
+ {| class="wikitable"!Card
+! colspan="3" |Item 
+|-
+|{{LoR|Spirit Blossom Teemo}} (x2)
+|[[File:PoC Common Relic icon.png|25px|link=]] at unlocked<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 8
+|[[File:PoC Common Relic icon.png|25px|link=]] at level 13<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 19
+|[[File:PoC Common Relic icon.png|25px|link=]] at level 25<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 30
+|-
+|{{LoR|Shadow Swindler}} (x2)
+| 
+|
+|
+|-
+|{{LoR|Yoink!}} (x2)
+| 
+|
+|
+|-
+|{{LoR|Entrapment}} (x2)
+| 
+|
+|
+|-
+|{{LoR|Puffcap Pup}} (x2)
+| 
+|
+|
+|-
+|{{LoR|Roo, Playfull Prankster}} (x2)
+| 
+|
+|
+|-
+|{{LoR|Shroomsplosion!}} (x2)
+| 
+|
+|
+|-
+|{{LoR|Stress Defense}} (x2)
+| 
+|
+|
+|-
+|{{LoR|Grandma Enoki}} (x2)
+| 
+|
+|
+|}

@@ -11,6 +11,8 @@
 #define DEFS_H
 #define MAXCARDS 8
 #define MAXCARDSS 13
+const int MAXITEMS= MAXCARDS+4;
+const int MAXCONST= 6;
 #define UTILITYSEPARATOR "|"
 
 #define CHAMP1 "Mel"
@@ -26,7 +28,6 @@ inline const char *cardsChamp1[MAXCARDS] = {
     "Rebuttal" C5
 
 };
-const int MAXITEMS= MAXCARDS+4;
 inline const char *itemsChamp1[MAXITEMS] = {
     { "Bounty Board" BLEVELTEXT2   UTILITYSEPARATOR "Coralcrush Gauntlets" BLEVELTEXT24 },
     { "Entrancing Lure" BLEVELTEXT6 },

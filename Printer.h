@@ -15,14 +15,22 @@ class Printer {
     JsonParser jParser;
     string patchVersion;
     FILE* patchFile;
+    int newChamps;
 
 
-    void printPatch(const ChampCard &champ, const vector<Card> &cards);
+    void openPatchFile();
+
+    void printNewCards(size_t globalIdx);
+    void printNewChamp(size_t globalIdx);
 
 public:
     Printer(TopTableManager tManager, BottomTableManager bManager, JsonParser jParser, string patchVersion);
     void parseVersionAndSetDirectory();
 
+
+
+
+    void printPatch();
 
     void printTables();
 };

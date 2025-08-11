@@ -21,11 +21,11 @@ extern std::vector<Card> cardsGlobal1;
 extern std::vector<Card> cardsGlobal2;
 extern std::vector<Card> cardsGlobal3;
 extern std::vector<Card> cardsGlobal4;
-
-
+extern std::vector<ChampCard*> champsGlobal;
+extern std::vector<vector<Card>*> cardsGlobal;
 class JsonParser {
     string patchVersion;
-    bool champIsNew;
+    string champType;
 
     static bool hasInvalidName(const string & itemName);
 
@@ -41,12 +41,17 @@ public:
 
     static void parseItem(nlohmann::json::const_reference json, string ref, string *itemName, int *itemLevel);
 
-    static void parseName(nlohmann::json::const_reference json, string * cardname);
 
     void parseCards(nlohmann::json j, vector<Card> * cardsP);
 
 
     void parseNew(nlohmann::json::const_reference json,bool *isNew);
+    void parseType(nlohmann::json::const_reference json);
+
+    void parseRef(string ref, nlohmann::json::const_reference json, string *target);
+
+    void parseRelic(nlohmann::json::const_reference json, string * relic);
+
 
     void parse();
 

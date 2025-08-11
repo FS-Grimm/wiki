@@ -12,7 +12,7 @@ void BottomTableManager::addLineStart(FILE* f) {
 }
 
 void BottomTableManager::addStart(FILE *f) {
-   fprintf(f," {| class=\"wikitable\""
+   fprintf(f," {| class=\"wikitable\" \n"
             "!Card\n"
             "! colspan=\"3\" |Item \n"
             "|-\n");

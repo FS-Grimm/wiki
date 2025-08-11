@@ -1,41 +1,41 @@
 {
   "1": {
     "name": "Spirit Blossom Ahri",
-    "new" : "true",
+    "type": "new",
     "1": {
       "name": "Orb of Deception",
       "cost": 2,
       "item1": "NAME",
       "item1Level": 0,
-      "new" : "true"
+      "new": "true"
     },
     "2": {
       "name": "Spirit Rush",
       "cost": 3,
       "item1": "NAME",
       "item1Level": 0,
-      "new" : "true"
+      "new": "true"
     },
     "3": {
       "name": "Essence Thief",
       "cost": 2,
       "item1": "NAME",
       "item1Level": 0,
-      "new" : "true"
+      "new": "true"
     },
     "4": {
       "name": "Serene Spirit",
       "cost": 3,
       "item1": "NAME",
       "item1Level": 0,
-      "new" : "true"
+      "new": "true"
     },
     "5": {
       "name": "Final Blessing",
       "cost": 5,
       "item1": "NAME",
       "item1Level": 0,
-      "new" : "true"
+      "new": "true"
     },
     "6": {
       "name": "Sparring Student",
@@ -54,18 +54,18 @@
       "cost": 1,
       "item1": "NAME",
       "item1Level": 0,
-      "new" : "true"
+      "new": "true"
     },
     "E1": {
       "name": "Fox-Fire",
       "item1": "NAME",
       "item1Level": 0,
-      "new" : "true"
+      "new": "true"
     }
   },
   "2": {
     "name": "Spirit Blossom Evelynn",
-    "new" : "true",
+    "type": "new",
     "1": {
       "name": "Mark of the Isles",
       "cost": 1,
@@ -81,7 +81,7 @@
       "item1Level": 0,
       "item2": "NAME",
       "item2Level": 0,
-      "new" : "true"
+      "new": "true"
     },
     "3": {
       "name": "Fated Suplicant",
@@ -90,7 +90,7 @@
       "item1Level": 0,
       "item2": "NAME",
       "item2Level": 0,
-      "new" : "true"
+      "new": "true"
     },
     "4": {
       "name": "Spirit's Embrace",
@@ -99,7 +99,7 @@
       "item1Level": 0,
       "item2": "NAME",
       "item2Level": 0,
-      "new" : "true"
+      "new": "true"
     },
     "5": {
       "name": "Withering Wail",
@@ -116,7 +116,7 @@
       "item1Level": 0,
       "item2": "NAME",
       "item2Level": 0,
-      "new" : "true"
+      "new": "true"
     },
     "7": {
       "name": "Bewitch",
@@ -125,7 +125,7 @@
       "item1Level": 0,
       "item2": "NAME",
       "item2Level": 0,
-      "new" : "true"
+      "new": "true"
     },
     "8": {
       "name": "Shadow Swindler",
@@ -134,7 +134,7 @@
       "item1Level": 0,
       "item2": "NAME",
       "item2Level": 0,
-      "new" : "true"
+      "new": "true"
     },
     "E1": {
       "name": "Beckoning Gaze",
@@ -143,7 +143,81 @@
       "item1Level": 0,
       "item2": "NAME",
       "item2Level": 0,
-      "new" : "true"
+      "new": "true"
+    }
+  },
+  "3": {
+    "name": "Spirit Blossom Teemo",
+    "type": "new",
+    "relic": "Mischiefmaker's Flute",
+    "1": {
+      "name": "Entrapment",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "2": {
+      "name": "Puffcap Pup",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "3": {
+      "name": "Grandma Enoki",
+      "new": "yes",
+      "cost": 4,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "4": {
+      "name": "Yoink!",
+      "new": "true",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "5": {
+      "name": "Shadow Swindler",
+      "new": "yes",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "6": {
+      "name": "Stress Defense",
+      "cost": 3,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "7": {
+      "name": "Roo, Playfull Prankster",
+      "new": "yes",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "8": {
+      "name": "Shroomsplosion!",
+      "new": "yes",
+      "cost": 3,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
     }
   }
 }
