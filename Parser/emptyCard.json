@@ -1,10 +1,10 @@
 {
   "1": {
     "name": "CHAMPNAME",
-    "new": "false",
+    "type": "const/new/newChamp",
+    "relic": "NAME",
     "1": {
       "name": "NAME",
-      "new": "false",
       "new": "false",
       "cost": 1,
       "item1": "NAME",
@@ -14,7 +14,6 @@
     },
     "2": {
       "name": "NAME",
-      "new": "false",
       "new": "false",
       "cost": 1,
       "item1": "NAME",

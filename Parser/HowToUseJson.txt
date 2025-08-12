@@ -3,6 +3,7 @@ If the Json of the patch doesn't exist, creat it
 Replace the name slots for cards and champs
 
 The following lines are optional and have a default value:
-Item1/2: Empty
-Item1/2Level: 0
-new: False
+Item1/2: Empty :Possible values -> Any String
+Item1/2Level: 0 : Possible values -> Any of the levels of upgrades(2,3,4,6,etc)
+new: False : Possible Values -> true/yes/new / anything=False
+type: const : Possible Values -> new/newChamp Anything= Const
