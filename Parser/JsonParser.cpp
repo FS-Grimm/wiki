@@ -29,7 +29,15 @@ ifstream JsonParser::getVersionFile_impl(const string &filePath) {
 }
 
 ifstream JsonParser::getVersionFile() {
-    string filePath = "../Parser/"  + patchVersion + ".json";
+    //only for using am debugger:
+    string filePath;
+    if (std::getenv("CLION_RUN")) {
+        // ejecuto desde CLion
+        filePath = "../Parser/" + patchVersion + ".json";
+    } else {
+        // ejecución normal desde consola
+        filePath = "./Parser/" + patchVersion + ".json";
+    }
     return getVersionFile_impl(filePath);
 }
 

@@ -1,0 +1,173 @@
+
+{
+  "1": {
+    "name": "Spirit Blossom Yasuo",
+    "1": {
+      "name": "Inspiring Mentor",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "2": {
+      "name": "Disciple of Doran",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "3": {
+      "name": "Arisen Soul",
+      "new": "new",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "4": {
+      "name": "Shades of Battles Past",
+      "new": "true",
+      "cost": 3,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "5": {
+      "name": "Commune with Spirits",
+      "new": "true",
+      "cost": 3,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "6": {
+      "name": "Last Breath",
+      "new": "true",
+      "cost": 5,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "7": {
+      "name": "Zephyr Sage",
+      "cost": 6,
+      "item1": "NAME",
+      "item1Level": 0
+    },
+    "8": {
+      "name": "Stormblade Sage",
+      "new": "true",
+      "cost": 7,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "E1": {
+      "name": "Unleash the Storm",
+      "new": "true",
+      "related": "",
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    }
+
+  },
+  "2": {
+    "name": "Master Yi",
+    "type": "new",
+    "relic": "Timehonored Blade",
+    "1": {
+      "name": "Spirit Aspirant",
+      "new": "true",
+      "cost": 1,
+      "item1": "",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "2": {
+      "name": "Ghost",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "3": {
+      "name": "Petals of Fate",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "4": {
+      "name": "Fallen Student",
+      "new": "new",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "5": {
+      "name": "Serene Spirit",
+      "cost": 3,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "6": {
+      "name": "Practice Makes Perfect",
+      "new": "true",
+      "cost": 3,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "7": {
+      "name": "The Prodigy's Shade",
+      "cost": 3,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "8": {
+      "name": "Trusty Adnere",
+      "cost": 4,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "E1": {
+      "name": "Grief's Lesson",
+      "new": "true",
+      "related": "",
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "E2": {
+      "name": "Adnere Aviarists",
+      "new": "false",
+      "related": "",
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    }
+  }
+}

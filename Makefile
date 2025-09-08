@@ -1,29 +1,32 @@
-CFLAGS := -ggdb3 -O2 -Wall -Wextra -std=gnu11
-CFLAGS += -Wmissing-prototypes
+# Compilador y flags
+CXX := g++
+CXXFLAGS := -ggdb3 -O2 -Wall -Wextra -std=c+++17 -Wmissing-prototypes
 
-# To force build a test shell run:
-#     make -B -e WIKI_TEST=true
+# Nombre del ejecutable final
+TARGET := wiki
 
-EXEC := wiki
-SRCS := $(wildcard *.c)
-OBJS := $(SRCS:%.c=%.o)
+# Buscar todos los .c en el directorio actual y subdirectorios
+SOURCES := $(shell find . -name "*.cpp" -not -path "./cmake-build-debug/*")
+# Generar la lista de objetos correspondiente
+OBJECTS := $(SOURCES:.c=.o)
 
-run:
-	cmake -S . -B build
-	cmake --build build
-	./build/Wiki
+# Regla por defecto
+all: $(TARGET)
 
+# Linkeo final
+$(TARGET): $(OBJECTS)
+	$(CXX) $(CFLAGS) -o $@ $(OBJECTS)
 
+# Regla genérica para compilar cada .c en su .o
+%.o: %.c
+	$(CXX) $(CFLAGS) -c $< -o $@
 
-test:
-	cmake -S . -B build
-	cmake --build build
-	./build/WikiTests
+# Ejecutar
+run: $(TARGET)
+	./$(TARGET)
 
-format: .clang-files .clang-format
-	xargs -r clang-format -i <$<
-
+# Limpieza
 clean:
-	rm -rf $(EXEC) *.o core vgcore.*
+	rm -f $(OBJECTS) $(TARGET) core vgcore.*
 
-.PHONY: all clean format valgrind test
+.PHONY: all clean run

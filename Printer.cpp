@@ -31,7 +31,7 @@ void Printer::printNewChamp() {
 
 void Printer::printConsts() {
     size_t i=0;
-    while (champsGlobal[i]->hasName() && i<champsGlobal.size()) {
+    while ( i<champsGlobal.size() && champsGlobal[i]->hasName()) {
         if (!champsGlobal[i]->isNewToPoC()) {
             ChampCard *champ=champsGlobal[i];
             fprintf(patchFile, "* ");
@@ -41,6 +41,7 @@ void Printer::printConsts() {
                 fprintf(patchFile, "** {{PoC|power|}}\n");
             }
         }
+        i++;
     }
 }
 
@@ -51,7 +52,8 @@ void Printer::printChamps() {
     if (newChamps>0) {
         fprintf(patchFile, "=== New PoC Exclusive Cards ===\n");
     }
-    while (champsGlobal[i]->hasName() && i<champsGlobal.size()) {
+
+    while ( i<champsGlobal.size() && champsGlobal[i]->hasName()) {
         if (champsGlobal[i]->isNewToLoR()) {
             printNewCards(i);
         }
@@ -66,7 +68,8 @@ void Printer::printChamps() {
         fprintf(patchFile, "=== New Champion ===\n");
     }
     i=0;
-    while (champsGlobal[i]->hasName() && i<champsGlobal.size()) {
+
+    while ( i<champsGlobal.size() && champsGlobal[i]->hasName()) {
         if (champsGlobal[i]->isNewToPoC()) {
             ChampCard *champ=champsGlobal[i];
             fprintf(patchFile, "* ");
@@ -86,13 +89,12 @@ void Printer::printChamps() {
         }
         printConsts();
     }
-
 }
 
 void Printer::printRelic() {
     size_t i=0;
     fprintf(patchFile, "=== New Relics ===\n* Bundle-Exclusive\n");
-    while (champsGlobal[i]->hasName() && i<champsGlobal.size()) {
+    while ( i<champsGlobal.size() && champsGlobal[i]->hasName()) {
         fprintf(patchFile, "** ");
         fprintf(patchFile, champsGlobal[i]->getPoCRelic().c_str());
         fprintf(patchFile, "\n");
@@ -122,7 +124,7 @@ void Printer::parseVersionAndSetDirectory() {
 void Printer::printShop() {
     size_t i=0;
     fprintf(patchFile, "\n\n == Shop ==\n=== Bundles ===\n*New Champion Bundles");
-    while (champsGlobal[i]->hasName() && i<champsGlobal.size()) {
+    while ( i<champsGlobal.size() && champsGlobal[i]->hasName()) {
         fprintf(patchFile, "** ");
         fprintf(patchFile, champsGlobal[i]->getPoCName().c_str());
         fprintf(patchFile, " with ");
@@ -146,7 +148,7 @@ void Printer::printTables() {
     cardsGlobal ={ &cardsGlobal1,& cardsGlobal2,& cardsGlobal3, &cardsGlobal4};
     size_t i=0;
 
-    while (champsGlobal[i]->hasName() && i<champsGlobal.size()) {
+    while ( i<champsGlobal.size() && champsGlobal[i]->hasName()) {
         auto bDeck=BottomDeck(champsGlobal[i],*cardsGlobal[i]);
         auto tDeck=TopDeck(champsGlobal[i],*cardsGlobal[i]);
         bManager.makeTable(bDeck);
@@ -156,8 +158,8 @@ void Printer::printTables() {
         }
         i++;
     }
-    printPatch();
 
+    printPatch();
 
 }
 

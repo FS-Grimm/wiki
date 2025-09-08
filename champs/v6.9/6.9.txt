@@ -1,0 +1,29 @@
+=== New PoC Exclusive Cards ===
+* {{LoR|Master Yi}}
+* {{LoR|Spirit Aspirant}}
+* {{LoR|Fallen Student}}
+* {{LoR|Practice Makes Perfect}}
+
+=== New Champion ===
+* {{PoC|Master Yi}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+=== New Constellations ===
+* {{PoC|Spirit Blossom Yasuo}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+=== New Relics ===
+* Bundle-Exclusive
+** {{PoC|relic|}}
+** {{PoC|relic|Timehonored Blade}}
+
+
+ == Shop ==
+=== Bundles ===
+*New Champion Bundles** {{PoC|Spirit Blossom Yasuo}} with {{PoC|relic|}}
+** {{PoC|Master Yi}} with {{PoC|relic|Timehonored Blade}}

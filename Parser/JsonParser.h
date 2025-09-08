@@ -6,7 +6,8 @@
 #define JSONPARSER_H
 #include <string>
 #include <bits/stdc++.h>
-#include <nlohmann/json.hpp>
+#include "json.hpp"
+using json = nlohmann::json;
 #include <fstream>
 
 #include "../Card/ChampCard.h"
