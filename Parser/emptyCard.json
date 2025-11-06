@@ -105,6 +105,8 @@
   },
   "2": {
     "name": "CHAMPNAME",
+    "type": "const/new/newChamp",
+    "relic": "NAME",
     "1": {
       "name": "NAME",
       "new": "false",

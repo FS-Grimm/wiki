@@ -1,0 +1,12 @@
+ {{PoCChampionLevel
+|level2= {{LoR|Cloud Drake}} starts with {{PoC|item|Greatclub}}.
+|level3= {{LoR|Screeching Dragon}} starts with {{PoC|item|Locket of the Iron Solari}}.
+|level6= {{LoR|Egghead Researcher}} starts with {{PoC|item|Herald's Favor}}.
+|level9= {{LoR|Ruined Dragonguard}} starts with {{PoC|item|Chain Vest}}.
+|level12= {{LoR|Dragonguard Lieutenant}} starts with {{PoC|item|Giant's Belt}}.
+|level15= {{LoR|Confront}} starts with {{PoC|item|Stout Shield}}.
+|level18= {{LoR|Dragon Chow}} starts with {{PoC|item|Bounty Board}}.
+|level21= {{LoR|Molten Breath}} starts with {{PoC|item|Sapphire Crystal}}.
+|level24= {{LoR|Cloud Drake}} starts with {{PoC|item|Phage}}.
+|level27= {{LoR|Egghead Researcher}} starts with {{PoC|item|Studded Leather}}.
+}}

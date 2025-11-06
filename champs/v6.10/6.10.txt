@@ -1,0 +1,23 @@
+=== New Champion ===
+* {{PoC|Anivia}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+=== New Constellations ===
+* {{PoC|Annie}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+=== New Relics ===
+* Bundle-Exclusive
+** {{PoC|relic|Emotional Support Bear}}
+** {{PoC|relic|Frost Breath}}
+
+
+ == Shop ==
+=== Bundles ===
+*New Champion Bundles** {{PoC|Annie}} with {{PoC|relic|Emotional Support Bear}}
+** {{PoC|Anivia}} with {{PoC|relic|Frost Breath}}

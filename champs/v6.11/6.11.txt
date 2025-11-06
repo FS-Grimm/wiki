@@ -1,0 +1,26 @@
+=== New PoC Exclusive Cards ===
+* {{LoR|Shyvana}}
+
+=== New Champion ===
+* {{PoC|Shyvana}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+=== New Constellations ===
+* {{PoC|Elise}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+=== New Relics ===
+* Bundle-Exclusive
+** {{PoC|relic|Queen's Embrace}}
+** {{PoC|relic|Draconic Runes}}
+
+
+ == Shop ==
+=== Bundles ===
+*New Champion Bundles** {{PoC|Elise}} with {{PoC|relic|Queen's Embrace}}
+** {{PoC|Shyvana}} with {{PoC|relic|Draconic Runes}}

@@ -1,0 +1,12 @@
+ {{PoCChampionLevel
+|level2= {{LoR|Legion Saboteur}} starts with {{PoC|item|Speed Wraps}}.
+|level3= {{LoR|The Prefect}} starts with {{PoC|item|Giant's Belt}}.
+|level6= {{LoR|Disintegrate}} starts with {{PoC|item|Mana Potion}}.
+|level9= {{LoR|Spell Slinger}} starts with {{PoC|item|Pickaxe}}.
+|level12= {{LoR|House Spider}} starts with {{PoC|item|Chain Vest}}.
+|level15= {{LoR|Captive Greyback}} starts with {{PoC|item|Shadow Totem}}.
+|level18= {{LoR|Death's Hand}} starts with {{PoC|item|Summoning Beacon}}.
+|level21= {{LoR|Manasoul Student}} starts with {{PoC|item|Warding Charm}}.
+|level24= {{LoR|Manasoul Student}} starts with {{PoC|item|Savage Shield}}.
+|level27= {{LoR|Disintegrate}} starts with {{PoC|item|Elixir of Skill Spells}}.
+}}

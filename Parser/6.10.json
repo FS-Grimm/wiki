@@ -1,0 +1,176 @@
+{
+  "1": {
+    "name": "Annie",
+    "type": "const",
+    "relic": "Emotional Support Bear",
+    "1": {
+      "name": "Legion Saboteur",
+      "new": "false",
+      "cost": 1,
+      "item1": "Speed Wraps",
+      "item1Level": 2
+    },
+    "2": {
+      "name": "The Prefect",
+      "new": "false",
+      "cost": 3,
+      "item1": "Giant's Belt",
+      "item1Level": 3
+    },
+    "3": {
+      "name": "Disintegrate",
+      "new": "false",
+      "cost": 2,
+      "item1": "Mana Potion",
+      "item1Level": 6,
+      "item2": "Elixir of Skill Spells",
+      "item2Level": 27
+    },
+    "4": {
+      "name": "Spell Slinger",
+      "new": "false",
+      "cost": 2,
+      "item1": "Pickaxe",
+      "item1Level": 9
+    },
+    "5": {
+      "name": "House Spider",
+      "new": "false",
+      "cost": 2,
+      "item1": "Chain Vest",
+      "item1Level": 12
+    },
+    "6": {
+      "name": "Captive Greyback",
+      "new": "false",
+      "cost": 4,
+      "item1": "Shadow Totem",
+      "item1Level": 15
+    },
+    "7": {
+      "name": "Death's Hand",
+      "new": "false",
+      "cost": 3,
+      "item1": "Summoning Beacon",
+      "item1Level": 18
+    },
+    "8": {
+      "name": "Manasoul Student",
+      "new": "false",
+      "cost": 3,
+      "item1": "Warding Charm",
+      "item1Level": 21,
+      "item2": "Savage Shield",
+      "item2Level": 24
+    },
+    "E1": {
+      "name": "Tibbers",
+      "new": "false",
+      "related": "",
+      "item1": "Nomad's Medallion",
+      "item1Level": 4
+    }
+  },
+  "2": {
+    "name": "Anivia",
+    "type": "newChamp",
+    "relic": "Frost Breath",
+    "1": {
+      "name": "Bone Scryer",
+      "new": "false",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "2": {
+      "name": "Feral Mystic",
+      "new": "false",
+      "cost": 2,
+      "item1": "Frost Armor",
+      "item1Level": 0,
+      "item2": "Elemental Studies",
+      "item2Level": 0
+    },
+    "3": {
+      "name": "Thrall Bulwark",
+      "new": "false",
+      "cost": 3,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "4": {
+      "name": "Flamecaller Caprine",
+      "new": "false",
+      "cost": 4,
+      "item1": "Frost Spikes",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "5": {
+      "name": "Crystalline Stormraptor",
+      "new": "false",
+      "cost": 5,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "6": {
+      "name": "Harsh Winds",
+      "new": "false",
+      "cost": 5,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "7": {
+      "name": "Wings of the Cryophoenix",
+      "new": "false",
+      "cost": 7,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "8": {
+      "name": "Clash of Giants",
+      "new": "false",
+      "cost": 16,
+      "item1": "Chalice of Harmony",
+      "item1Level": 0
+    },
+    "E1": {
+      "name": "NAME",
+      "new": "false",
+      "related": "",
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "E2": {
+      "name": "NAME",
+      "new": "false",
+      "related": "",
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "E3": {
+      "name": "NAME",
+      "new": "false",
+      "related": "",
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    }
+  }
+}

@@ -53,6 +53,7 @@ void BottomTableManager::addItem2Line(FILE *file, Card &card) {
         return;
     }
     fprintf(file, card.getPoCItem(false).c_str());
+    fprintf(file," ");
     fprintf(file, card.getBottomTextFromlevel(false).c_str());
 }
 

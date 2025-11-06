@@ -1,0 +1,49 @@
+ {| class="wikitable" 
+!Card
+! colspan="3" |Item 
+|-
+|{{LoR|Shyvana}} (x2)
+|[[File:PoC Common Relic icon.png|25px|link=]] at unlocked<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 8
+|[[File:PoC Common Relic icon.png|25px|link=]] at level 13<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 19
+|[[File:PoC Common Relic icon.png|25px|link=]] at level 25<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 30
+|-
+|{{LoR|Dragon Chow}} (x2)
+|{{PoC|item|Bounty Board}} (Level 18)
+|
+|
+|-
+|{{LoR|Confront}} (x2)
+|{{PoC|item|Stout Shield}} (Level 15)
+|
+|
+|-
+|{{LoR|Dragonguard Lieutenant}} (x2)
+|{{PoC|item|Giant's Belt}} (Level 12)
+|
+|
+|-
+|{{LoR|Egghead Researcher}} (x2)
+|{{PoC|item|Herald's Favor}} (Level 6)
+|{{PoC|item|Studded Leather}}(Level 27)
+|
+|-
+|{{LoR|Ruined Dragonguard}} (x2)
+|{{PoC|item|Chain Vest}} (Level 9)
+|
+|
+|-
+|{{LoR|Molten Breath}} (x2)
+|{{PoC|item|Sapphire Crystal}} (Level 21)
+|
+|
+|-
+|{{LoR|Screeching Dragon}} (x2)
+|{{PoC|item|Locket of the Iron Solari}} (Level 3)
+|
+|
+|-
+|{{LoR|Cloud Drake}} (x2)
+|{{PoC|item|Greatclub}} (Level 2)
+|{{PoC|item|Phage}}(Level 24)
+|
+|}

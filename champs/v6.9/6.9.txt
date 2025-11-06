@@ -1,10 +1,31 @@
 === New PoC Exclusive Cards ===
+* {{LoR|Spirit Blossom Yasuo}}
+* {{LoR|Arisen Soul}}
+* {{LoR|Shades of Battles Past}}
+* {{LoR|Commune with Spirits}}
+* {{LoR|Last Breath}}
+* {{LoR|Stormblade Sage}}
+
 * {{LoR|Spirit Blossom Master Yi}}
 * {{LoR|Spirit Aspirant}}
 * {{LoR|Fallen Student}}
 * {{LoR|Practice Makes Perfect}}
 
-=== New Champion ===
+* {{LoR|The Taker}}
+* {{LoR|Dance of Arrows}}
+* {{LoR|Vengeful Imp}}
+* {{LoR|Death's Seer}}
+* {{LoR|Fleeting Spirits}}
+* {{LoR|Patient Beast}}
+
+=== New Champions ===
+* {{PoC|Spirit Blossom Yasuo}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
 * {{PoC|Spirit Blossom Master Yi}}
 ** {{PoC|power|}}
 ** {{PoC|power|}}
@@ -12,18 +33,22 @@
 ** {{PoC|power|}}
 ** {{PoC|power|}}
 ** {{PoC|power|}}
-=== New Constellations ===
-* {{PoC|Spirit Blossom Yasuo}}
+* {{PoC|The Taker}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
 ** {{PoC|power|}}
 ** {{PoC|power|}}
 ** {{PoC|power|}}
 === New Relics ===
 * Bundle-Exclusive
-** {{PoC|relic|}}
+** {{PoC|relic|Spirit Glove}}
 ** {{PoC|relic|Timehonored Blade}}
+** {{PoC|relic|The Taker's Bow}}
 
 
  == Shop ==
 === Bundles ===
-*New Champion Bundles** {{PoC|Spirit Blossom Yasuo}} with {{PoC|relic|}}
+*New Champion Bundles** {{PoC|Spirit Blossom Yasuo}} with {{PoC|relic|Spirit Glove}}
 ** {{PoC|Spirit Blossom Master Yi}} with {{PoC|relic|Timehonored Blade}}
+** {{PoC|The Taker}} with {{PoC|relic|The Taker's Bow}}

@@ -2,6 +2,8 @@
 {
   "1": {
     "name": "Spirit Blossom Yasuo",
+    "type": "new",
+    "relic": "Spirit Glove",
     "1": {
       "name": "Inspiring Mentor",
       "cost": 1,
@@ -37,7 +39,7 @@
       "item2Level": 0
     },
     "5": {
-      "name": "Commune with Spirits",
+      "name": "Commune With Spirits",
       "new": "true",
       "cost": 3,
       "item1": "NAME",
@@ -169,5 +171,87 @@
       "item2": "NAME",
       "item2Level": 0
     }
+  },
+  "3": {
+    "name": "The Taker",
+    "type": "new",
+    "relic": "The Taker's Bow",
+    "1": {
+      "name": "Dance of Arrows",
+      "new":"true",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "2": {
+      "name": "Fading Icon",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "3": {
+      "name": "Vengeful Imp",
+      "new": "new",
+      "cost": 1,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "4": {
+      "name": "Death's Seer",
+      "new": "true",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "5": {
+      "name": "Vile Feast",
+      "cost": 2,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "6": {
+      "name": "Fleeting Spirits",
+      "new": "true",
+      "cost": 5,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "7": {
+      "name": "Patient Beast",
+      "new": "true",
+      "cost":5,
+      "item1": "NAME",
+      "item1Level": 0
+    },
+    "8": {
+      "name": "Withering Mist",
+      "cost":4,
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "E1": {
+      "name": "Beast's Frenzy",
+      "new": "true",
+      "related": "",
+      "item1": "NAME",
+      "item1Level": 0,
+      "item2": "NAME",
+      "item2Level": 0
+    }
+
   }
 }

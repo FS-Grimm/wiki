@@ -1,0 +1,142 @@
+{
+  "1": {
+    "name": "Elise",
+    "type": "const",
+    "relic": "Queen's Embrace",
+    "1": {
+      "name": "Shadow Isles Tellstones",
+      "new": "false",
+      "cost": 1,
+      "item1": "Mana Potion Spells",
+      "item1Level": 9
+    },
+    "2": {
+      "name": "Spiderling",
+      "new": "false",
+      "cost": 1,
+      "item1": "Chain Vest",
+      "item1Level": 12
+    },
+    "3": {
+      "name": "Spell Slinger",
+      "new": "false",
+      "cost": 2,
+      "item1": "Phage",
+      "item1Level": 21
+    },
+    "4": {
+      "name": "Arachnoid Sentry",
+      "new": "",
+      "cost": 3,
+      "item1": "Entrancing Lure",
+      "item1Level": 2
+    },
+    "5": {
+      "name": "Frenzied Skitterer",
+      "new": "false",
+      "cost": 3,
+      "item1": "Spirit Stone",
+      "item1Level": 18,
+      "item2": "Studded Leather",
+      "item2Level": 27
+    },
+    "6": {
+      "name": "Shrieking Spinner",
+      "new": "false",
+      "cost": 4,
+      "item1": "Serrated Dirk",
+      "item1Level": 3
+    },
+    "7": {
+      "name": "Arachnoid Host",
+      "new": "false",
+      "cost": 5,
+      "item1": "Savage Shield",
+      "item1Level": 15,
+      "item2": "Speed Wraps",
+      "item2Level": 24
+    },
+    "8": {
+      "name": "Brood Awakening",
+      "new": "false",
+      "cost": 6,
+      "item1": "Battle Banner",
+      "item1Level": 6
+    }
+  },
+  "2": {
+    "name": "Shyvana",
+    "type": "new",
+    "relic": "Draconic Runes",
+    "1": {
+      "name": "Dragon Chow",
+      "new": "false",
+      "cost": 1,
+      "item1": "Bounty Board",
+      "item1Level": 18,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "2": {
+      "name": "Confront",
+      "new": "false",
+      "cost": 2,
+      "item1": "Stout Shield",
+      "item1Level": 15,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "3": {
+      "name": "Dragonguard Lieutenant",
+      "new": "false",
+      "cost": 2,
+      "item1": "Giant's Belt",
+      "item1Level": 12,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "4": {
+      "name": "Egghead Researcher",
+      "cost": 2,
+      "item1": "Herald's Favor",
+      "item1Level": 6,
+      "item2": "Studded Leather",
+      "item2Level": 27
+    },
+    "5": {
+      "name": "Ruined Dragonguard",
+      "new": "false",
+      "cost": 3,
+      "item1": "Chain Vest",
+      "item1Level": 9,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "6": {
+      "name": "Molten Breath",
+      "cost": 5,
+      "item1": "Sapphire Crystal",
+      "item1Level": 21,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "7": {
+      "name": "Screeching Dragon",
+      "new": "false",
+      "cost": 5,
+      "item1": "Locket of the Iron Solari",
+      "item1Level": 3,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "8": {
+      "name": "Cloud Drake",
+      "new": "false",
+      "cost": 6,
+      "item1": "Greatclub",
+      "item1Level": 2,
+      "item2": "Phage",
+      "item2Level": 24
+    }
+  }
+}

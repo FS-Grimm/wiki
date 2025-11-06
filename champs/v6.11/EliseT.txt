@@ -1,0 +1,12 @@
+ {{PoCChampionLevel
+|level2= {{LoR|Arachnoid Sentry}} starts with {{PoC|item|Entrancing Lure}}.
+|level3= {{LoR|Shrieking Spinner}} starts with {{PoC|item|Serrated Dirk}}.
+|level6= {{LoR|Brood Awakening}} starts with {{PoC|item|Battle Banner}}.
+|level9= {{LoR|Shadow Isles Tellstones}} starts with {{PoC|item|Mana Potion Spells}}.
+|level12= {{LoR|Spiderling}} starts with {{PoC|item|Chain Vest}}.
+|level15= {{LoR|Arachnoid Host}} starts with {{PoC|item|Savage Shield}}.
+|level18= {{LoR|Frenzied Skitterer}} starts with {{PoC|item|Spirit Stone}}.
+|level21= {{LoR|Spell Slinger}} starts with {{PoC|item|Phage}}.
+|level24= {{LoR|Arachnoid Host}} starts with {{PoC|item|Speed Wraps}}.
+|level27= {{LoR|Frenzied Skitterer}} starts with {{PoC|item|Studded Leather}}.
+}}

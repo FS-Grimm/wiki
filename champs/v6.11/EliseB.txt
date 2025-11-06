@@ -1,0 +1,49 @@
+ {| class="wikitable" 
+!Card
+! colspan="3" |Item 
+|-
+|{{LoR|Elise}} (x2)
+|[[File:PoC Common Relic icon.png|25px|link=]] at unlocked<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 8
+|[[File:PoC Common Relic icon.png|25px|link=]] at level 13<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 19
+|[[File:PoC Common Relic icon.png|25px|link=]] at level 25<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 30
+|-
+|{{LoR|Shadow Isles Tellstones}} (x2)
+|{{PoC|item|Mana Potion Spells}} (Level 9)
+|
+|
+|-
+|{{LoR|Spiderling}} (x2)
+|{{PoC|item|Chain Vest}} (Level 12)
+|
+|
+|-
+|{{LoR|Spell Slinger}} (x2)
+|{{PoC|item|Phage}} (Level 21)
+|
+|
+|-
+|{{LoR|Arachnoid Sentry}} (x2)
+|{{PoC|item|Entrancing Lure}} (Level 2)
+|
+|
+|-
+|{{LoR|Frenzied Skitterer}} (x2)
+|{{PoC|item|Spirit Stone}} (Level 18)
+|{{PoC|item|Studded Leather}}(Level 27)
+|
+|-
+|{{LoR|Shrieking Spinner}} (x2)
+|{{PoC|item|Serrated Dirk}} (Level 3)
+|
+|
+|-
+|{{LoR|Arachnoid Host}} (x2)
+|{{PoC|item|Savage Shield}} (Level 15)
+|{{PoC|item|Speed Wraps}}(Level 24)
+|
+|-
+|{{LoR|Brood Awakening}} (x2)
+|{{PoC|item|Battle Banner}} (Level 6)
+|
+|
+|}
