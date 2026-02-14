@@ -12,7 +12,7 @@
       "item2Level": 24
     },
     "2": {
-      "name": "Star Sheperd",
+      "name": "Star Shepherd",
       "cost": 1,
       "item1": "Greatclub",
       "item1Level": 3
@@ -28,7 +28,7 @@
       "cost": 2,
       "item1": "Studded Leather",
       "item1Level": 2,
-      "item2": "Wanderer's Blessing",
+      "item2": "Wanderer's Blessing Units",
       "item2Level": 27
     },
     "5": {
