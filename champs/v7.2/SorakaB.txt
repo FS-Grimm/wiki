@@ -1,0 +1,49 @@
+ {| class="wikitable" 
+!Card
+! colspan="3" |Item 
+|-
+|{{LoR|Soraka}} (x2)
+|[[File:PoC Common Relic icon.png|25px|link=]] at unlocked<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 8
+|[[File:PoC Common Relic icon.png|25px|link=]] at level 13<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 19
+|[[File:PoC Common Relic icon.png|25px|link=]] at level 25<br />[[File:PoC Rare Relic icon.png|25px|link=]] at level 30
+|-
+|{{LoR|Gift Giver}} (x2)
+|{{PoC|item|Giant's Belt}} (level 9)
+|{{PoC|item|Targon's Brace}} (level 24)
+|
+|-
+|{{LoR|Star Sheperd}} (x2)
+|{{PoC|item|Greatclub}} (level 3)
+|
+|
+|-
+|{{LoR|Hush}} (x2)
+|{{PoC|item|Hero's Horn}} (level 21)
+|
+|
+|-
+|{{LoR|Mountain Goat}} (x2)
+|{{PoC|item|Studded Leather}} (level 2)
+|{{PoC|item|Wanderer's Blessing Spells/Landmarks/Units}} (level 27)
+|
+|-
+|{{LoR|Astral Protection}} (x2)
+|{{PoC|item|Hextech Fabricator I}} (level 12)
+|
+|
+|-
+|{{LoR|Stargazer}} (x2)
+|{{PoC|item|Blue Buff}} (level 15)
+|
+|
+|-
+|{{LoR|Fused Firebrand}} (x2)
+|{{PoC|item|Flame-Wreathed Soul}} (level 18)
+|
+|
+|-
+|{{LoR|Spring Guardian}} (x2)
+|{{PoC|item|Ancient Coin}} (level 21)
+|
+|
+|}

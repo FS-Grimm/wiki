@@ -1,0 +1,24 @@
+=== New Champion ===
+* {{PoC|Azir}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+=== New Constellations ===
+* {{PoC|The Poro King}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+=== New Relics ===
+* [[LoR:Signature Relics|Signature Relics]]
+** {{PoC|relic|Royal Nibbles}}
+** {{PoC|relic|Azir's Staff of Office}}
+
+
+ == Shop ==
+=== Bundles ===
+*New Champion Bundles
+** {{PoC|The Poro King}} with {{PoC|relic|Royal Nibbles}}
+** {{PoC|Azir}} with {{PoC|relic|Azir's Staff of Office}}

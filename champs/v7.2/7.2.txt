@@ -1,0 +1,20 @@
+=== New PoC Exclusive Cards ===
+* {{LoR|Soraka}}
+
+=== New Champion ===
+* {{PoC|Soraka}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+** {{PoC|power|}}
+=== New Relics ===
+* [[LoR:Signature Relics|Signature Relics]]
+** {{PoC|relic|}}
+
+
+ == Shop ==
+=== Bundles ===
+*New Champion Bundles
+** {{PoC|Soraka}} with {{PoC|relic|}}

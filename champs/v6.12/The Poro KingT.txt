@@ -1,0 +1,12 @@
+ {{PoCChampionLevel
+|level2= {{LoR|Lonely Poro}} starts with {{PoC|item|Sttuded Leather}}.
+|level3= {{LoR|Pouty Poro}} starts with {{PoC|item|Philosopher's Stone}}.
+|level6= {{LoR|Ultrasoft Poro}} starts with {{PoC|item|Greatclub}}.
+|level9= {{LoR|Poro Nip}} starts with {{PoC|item|Mana Potion Spells}}.
+|level12= {{LoR|Poro Stories}} starts with {{PoC|item|Poro Snax Spells}}.
+|level15= {{LoR|Heart of the Fluft}} starts with {{PoC|item|Phage}}.
+|level18= {{LoR|Professor von Yipp}} starts with {{PoC|item|Nomad's Medallion}}.
+|level21= {{LoR|Poro Snax}} starts with {{PoC|item|Hextech Fabricator II}}.
+|level24= {{LoR|Poro Snax}} starts with {{PoC|item|Health Potion}}.
+|level27= {{LoR|Professor von Yipp}} starts with {{PoC|item|Chain Vest}}.
+}}

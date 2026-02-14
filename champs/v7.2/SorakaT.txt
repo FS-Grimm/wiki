@@ -1,0 +1,12 @@
+ {{PoCChampionLevel
+|level2= {{LoR|Mountain Goat}} starts with {{PoC|item|Studded Leather}}.
+|level3= {{LoR|Star Sheperd}} starts with {{PoC|item|Greatclub}}.
+|level6= 
+|level9= {{LoR|Gift Giver}} starts with {{PoC|item|Giant's Belt}}.
+|level12= {{LoR|Astral Protection}} starts with {{PoC|item|Hextech Fabricator I}}.
+|level15= {{LoR|Stargazer}} starts with {{PoC|item|Blue Buff}}.
+|level18= {{LoR|Fused Firebrand}} starts with {{PoC|item|Flame-Wreathed Soul}}.
+|level21= {{LoR|Hush}} starts with {{PoC|item|Hero's Horn}}.
+|level24= {{LoR|Gift Giver}} starts with {{PoC|item|Targon's Brace}}.
+|level27= {{LoR|Mountain Goat}} starts with {{PoC|item|Wanderer's Blessing Spells/Landmarks/Units}}.
+}}

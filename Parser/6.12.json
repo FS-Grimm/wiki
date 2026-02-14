@@ -1,0 +1,129 @@
+{
+  "1": {
+    "name": "The Poro King",
+    "type": "const",
+    "relic": "Royal Nibbles",
+    "1": {
+      "name": "Lonely Poro",
+      "new": "false",
+      "cost": 1,
+      "item1": "Sttuded Leather",
+      "item1Level": 2
+    },
+    "2": {
+      "name": "Pouty Poro",
+      "new": "false",
+      "cost": 1,
+      "item1": "Philosopher's Stone",
+      "item1Level": 3
+    },
+    "3": {
+      "name": "Poro Stories",
+      "new": "false",
+      "cost": 2,
+      "item1": "Poro Snax Spells",
+      "item1Level": 12
+    },
+    "4": {
+      "name": "Ultrasoft Poro",
+      "cost": 3,
+      "item1": "Greatclub",
+      "item1Level": 6
+    },
+    "5": {
+      "name": "Poro Snax",
+      "cost": 3,
+      "item1": "Hextech Fabricator II",
+      "item1Level": 21,
+      "item2": "Health Potion",
+      "item2Level": 24
+    },
+    "6": {
+      "name": "Poro Nip",
+      "cost": 4,
+      "item1": "Mana Potion Spells",
+      "item1Level": 9
+    },
+    "7": {
+      "name": "Professor von Yipp",
+      "cost": 4,
+      "item1": "Nomad's Medallion",
+      "item1Level": 18,
+      "item2": "Chain Vest",
+      "item2Level": 27
+    },
+    "8": {
+      "name": "Heart of the Fluft",
+      "cost": 6,
+      "item1": "Phage",
+      "item1Level": 15
+    }
+  },
+  "2": {
+    "name": "Azir",
+    "type": "newChamp",
+    "relic": "Azir's Staff of Office",
+    "1": {
+      "name": "Quicksand",
+      "cost": 3,
+      "item1": "Mana Potion Spells",
+      "item1Level": 6
+    },
+    "2": {
+      "name": "Esteemed Hierophant",
+      "cost": 3,
+      "item1": "Savage Shield",
+      "item1Level": 21,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "3": {
+      "name": "Rock Hopper",
+      "cost": 2,
+      "item1": "Giant's Belt",
+      "item1Level": 15,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "4": {
+      "name": "Dunekeeper",
+      "cost": 1,
+      "item1": "Serrated Dirk",
+      "item1Level": 2,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "5": {
+      "name": "Shifting Sands",
+      "cost": 6,
+      "item1": "Mana Potion Spells",
+      "item1Level": 12,
+      "item2": "Blasting Sigil",
+      "item2Level": 27
+    },
+    "6": {
+      "name": "Soothsayer",
+      "cost": 2,
+      "item1": "Studded Leather",
+      "item1Level": 9,
+      "item2": "NAME",
+      "item2Level": 0
+    },
+    "7": {
+      "name": "Sandcrafter",
+      "cost": 4,
+      "item1": "Locket of the Iron Solari",
+      "item1Level": 18,
+      "item2": "Pickaxe",
+      "item2Level": 24
+    },
+    "8": {
+      "name": "Voice of the Risen",
+      "cost": 4,
+      "item1": "Speed Wraps",
+      "item1Level":3,
+      "item2": "NAME",
+      "item2Level": 0
+    }
+  }
+}

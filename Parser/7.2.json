@@ -1,0 +1,59 @@
+{
+  "1": {
+    "name": "Soraka",
+    "type": "new",
+    "relic": "NAME",
+    "1": {
+      "name": "Gift Giver",
+      "cost": 1,
+      "item1": "Giant's Belt",
+      "item1Level": 9,
+      "item2": "Targon's Brace",
+      "item2Level": 24
+    },
+    "2": {
+      "name": "Star Sheperd",
+      "cost": 1,
+      "item1": "Greatclub",
+      "item1Level": 3
+    },
+    "3": {
+      "name": "Hush",
+      "cost": 2,
+      "item1": "Hero's Horn",
+      "item1Level": 21
+    },
+    "4": {
+      "name": "Mountain Goat",
+      "cost": 2,
+      "item1": "Studded Leather",
+      "item1Level": 2,
+      "item2": "Wanderer's Blessing",
+      "item2Level": 27
+    },
+    "5": {
+      "name": "Spring Guardian",
+      "cost": 6,
+      "item1": "Ancient Coin",
+      "item1Level": 21
+    },
+    "6": {
+      "name": "Astral Protection",
+      "cost": 4,
+      "item1": "Hextech Fabricator I",
+      "item1Level": 12
+    },
+    "7": {
+      "name": "Stargazer",
+      "cost": 4,
+      "item1": "Blue Buff",
+      "item1Level": 15
+    },
+    "8": {
+      "name": "Fused Firebrand",
+      "cost": 5,
+      "item1": "Flame-Wreathed Soul",
+      "item1Level": 18
+    }
+  }
+}

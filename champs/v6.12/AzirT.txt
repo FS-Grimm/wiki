@@ -1,0 +1,12 @@
+ {{PoCChampionLevel
+|level2= {{LoR|Dunekeeper}} starts with {{PoC|item|Serrated Dirk}}.
+|level3= {{LoR|Voice of the Risen}} starts with {{PoC|item|Speed Wraps}}.
+|level6= {{LoR|Quicksand}} starts with {{PoC|item|Mana Potion Spells}}.
+|level9= {{LoR|Soothsayer}} starts with {{PoC|item|Studded Leather}}.
+|level12= {{LoR|Shifting Sands}} starts with {{PoC|item|Mana Potion Spells}}.
+|level15= {{LoR|Rock Hopper}} starts with {{PoC|item|Giant's Belt}}.
+|level18= {{LoR|Sandcrafter}} starts with {{PoC|item|Locket of the Iron Solari}}.
+|level21= {{LoR|Esteemed Hierophant}} starts with {{PoC|item|Savage Shield}}.
+|level24= {{LoR|Sandcrafter}} starts with {{PoC|item|Pickaxe}}.
+|level27= {{LoR|Shifting Sands}} starts with {{PoC|item|Blasting Sigil}}.
+}}

@@ -93,7 +93,7 @@ void Printer::printChamps() {
 
 void Printer::printRelic() {
     size_t i=0;
-    fprintf(patchFile, "=== New Relics ===\n* Bundle-Exclusive\n");
+    fprintf(patchFile, "=== New Relics ===\n* [[LoR:Signature Relics|Signature Relics]]\n");
     while ( i<champsGlobal.size() && champsGlobal[i]->hasName()) {
         fprintf(patchFile, "** ");
         fprintf(patchFile, champsGlobal[i]->getPoCRelic().c_str());
@@ -123,7 +123,7 @@ void Printer::parseVersionAndSetDirectory() {
 
 void Printer::printShop() {
     size_t i=0;
-    fprintf(patchFile, "\n\n == Shop ==\n=== Bundles ===\n*New Champion Bundles");
+    fprintf(patchFile, "\n\n == Shop ==\n=== Bundles ===\n*New Champion Bundles\n");
     while ( i<champsGlobal.size() && champsGlobal[i]->hasName()) {
         fprintf(patchFile, "** ");
         fprintf(patchFile, champsGlobal[i]->getPoCName().c_str());
