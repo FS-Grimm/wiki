@@ -12,7 +12,7 @@
 |{{PoC|item|Targon's Brace}} (level 24)
 |
 |-
-|{{LoR|Star Sheperd}} (x2)
+|{{LoR|Star Shepherd}} (x2)
 |{{PoC|item|Greatclub}} (level 3)
 |
 |
@@ -24,7 +24,7 @@
 |-
 |{{LoR|Mountain Goat}} (x2)
 |{{PoC|item|Studded Leather}} (level 2)
-|{{PoC|item|Wanderer's Blessing Spells/Landmarks/Units}} (level 27)
+|{{PoC|item|Wanderer's Blessing Units}} (level 27)
 |
 |-
 |{{LoR|Astral Protection}} (x2)
