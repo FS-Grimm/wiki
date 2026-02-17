@@ -1,7 +1,7 @@
 {
   "1": {
     "name": "CHAMPNAME",
-    "type": "const/newChamp/new",
+    "type": "const/newConst/new",
     "relic": "NAME",
     "1": {
       "name": "NAME",

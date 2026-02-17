@@ -11,7 +11,7 @@
 
 const string NEWTOLOR="newLoR";
 const string CONSTELLATION="const";
-const string NEWCHAMP="newChamp";
+const string NEWCHAMP="newConst";
 
 
 class ChampCard {
