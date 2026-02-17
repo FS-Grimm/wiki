@@ -1,6 +1,3 @@
-=== New PoC Exclusive Cards ===
-* {{LoR|Soraka}}
-
 === New Champion ===
 * {{PoC|Soraka}}
 ** {{PoC|power|}}

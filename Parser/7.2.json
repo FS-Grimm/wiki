@@ -1,7 +1,7 @@
 {
   "1": {
     "name": "Soraka",
-    "type": "new",
+    "type": "newChamp",
     "relic": "NAME",
     "1": {
       "name": "Gift Giver",
